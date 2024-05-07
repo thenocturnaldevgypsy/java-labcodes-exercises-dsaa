@@ -21,9 +21,7 @@ If you want to ask some questions about it, feel free to start a discussion or a
 The workspace contains two folders by default, where:
 
 - `src`: the folder to maintain sources, the one uploaded in this repository
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files `*.class` will be generated in the `bin` folder by default.
+- `bin`: the default folder to store the generated compiled output files `*.class`
 
 ## Contents and Breakdown
 - [All Activities under Prelim Period](#all-activities-under-prelim-periodall-activities-under-prelim-period)
