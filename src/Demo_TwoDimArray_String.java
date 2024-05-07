@@ -1,13 +1,14 @@
 /*
  * Course: Data Structure and Algorithm Analysis
  * Period: Prelim
- * Demo Code # 5
+ * Demo # 5 : Two Dimensional Array  - String 
 */
 
 import java.*;
 
-public class Prelim_TwoDimArray_String {
-	public Prelim_TwoDimArray_String() {
+public class Demo_TwoDimArray_String {
+	public Demo_TwoDimArray_String() {
+
         String [][] drinks = {{"coffee", "120.00"},
                 {"mojito", "150.00"},
                 {"tequila", "120.00"},
@@ -17,8 +18,9 @@ public class Prelim_TwoDimArray_String {
 		
 		for (y=0; y<=1; ++y) {
 			for (x=0; x<=4; ++x) {
-				System.out.println("drinks ["+ x +"][" + y + "] value = " + drinks[x][y]);
+				System.out.println("2-Dim Array -drinks- ["+ x +"][" + y + "] value = " + drinks[x][y]);
 			}
 		}
+
 	}
 }

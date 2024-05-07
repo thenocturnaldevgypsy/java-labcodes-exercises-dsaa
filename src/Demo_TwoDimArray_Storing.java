@@ -1,14 +1,15 @@
 /*
  * Course: Data Structure and Algorithm Analysis
  * Period: Prelim
- * Demo Code # 6
+ * Demo # 6 : Two Dimensional Array  - Storing 
 */
 
 import java.*;
 import java.util.Scanner;
 
-public class Prelim_TwoDimArray_Storing {
-	public Prelim_TwoDimArray_Storing() {
+public class Demo_TwoDimArray_Storing {
+	public Demo_TwoDimArray_Storing() {
+
         //declaration
         Scanner cursor = new Scanner (System.in);
         String [][] container = new String [2][2];
@@ -16,7 +17,7 @@ public class Prelim_TwoDimArray_Storing {
         
         for (row=0; row<=1; ++row) { //for adding value in each cells)
             for (col=0; col<=1; ++col) {
-                System.out.print("Enter value for Array [" + row + "][" + col+ "]: ");
+                System.out.print("Enter string value for 2-Dim Array -container- [" + row + "][" + col+ "]: ");
                 container [row][col] = cursor.nextLine();
             }
         }
@@ -24,8 +25,9 @@ public class Prelim_TwoDimArray_Storing {
         System.out.println("\nThank you for the input!\n");
         for (row=0; row<=1; ++row) { //for displaying the content of the array
             for (col=0; col<=1; ++col) {
-                System.out.println("Array ["+row+"]["+col+"] contained :"+container [row][col]);
+                System.out.println("2-Dim Array -container- ["+row+"]["+col+"] contained :"+container [row][col]);
             }
         }
+
 	}
 }

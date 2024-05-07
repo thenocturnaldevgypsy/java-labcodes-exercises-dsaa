@@ -40,18 +40,18 @@ public class App {
 							internal = 1;
 							do {
 								System.out.println("\nAll Activities under Prelim Period > | D | Demo\n");
-								System.out.println("|  1 | Demo # 1: One Dimentional Array (Demo_OneDimArray.java)");
-								System.out.println("|  2 | Demo # 2: One Dimentional Array - Debug (Demo_OneDimArray_Debug.java)");
-								System.out.println("|  3 | Demo # 3: One Dimentional Array - Input");
-								System.out.println("|  4 | Demo # 4: Two Dimentional Array");
-								System.out.println("|  5 | Demo # 5: Two Dimentional Array - String");
-								System.out.println("|  6 | Demo # 6: Two Dimentional Array - Storing");
-								System.out.println("|  7 | Demo # 7: Method");
-								System.out.println("|  8 | Demo # 8: Method - Return");
-								System.out.println("|  9 | Demo # 9: Method - Void");
-								System.out.println("| 10 | Demo # 10: Stack");
-								System.out.println("| 11 | Demo # 11: String - ReversedWord");
-								System.out.println("| 12 | Demo # 12: Stack - Decimal To Binary");
+								System.out.println("|  1 | Demo # 1: One Dimensional Array (Demo_OneDimArray.java)");
+								System.out.println("|  2 | Demo # 2: One Dimensional Array - Debug (Demo_OneDimArray_Debug.java)");
+								System.out.println("|  3 | Demo # 3: One Dimensional Array - Input (Demo_OneDimArray_Input.java)");
+								System.out.println("|  4 | Demo # 4: Two Dimensional Array (Demo_TwoDimArray.java)");
+								System.out.println("|  5 | Demo # 5: Two Dimensional Array - String (Demo_TwoDimArray_String.java)");
+								System.out.println("|  6 | Demo # 6: Two Dimensional Array - Storing (Demo_TwoDimArray_Storing.java)");
+								System.out.println("|  7 | Demo # 7: Method (Demo_Method.java)");
+								System.out.println("|  8 | Demo # 8: Method - Return (Demo_Method_Return.java)");
+								System.out.println("|  9 | Demo # 9: Method - Void (Demo_Method_Void.java)");
+								System.out.println("| 10 | Demo # 10: Stack (Demo_Stack.java)");
+								System.out.println("| 11 | Demo # 11: String - Reversed Word (Demo_String_ReverseWord.java)");
+								System.out.println("| 12 | Demo # 12: Stack - Decimal To Binary (Demo_Stack_DecToBin.java)");
 								System.out.print("\nEnter a choice from 1 to 12, press 0 to GO BACK: ");
 								internal = x.nextInt();
 								switch (internal) {
@@ -70,52 +70,52 @@ public class App {
 									break;
 									case 3:
 										System.out.println();
-										new Prelim_OneDimArray_Input();
+										new Demo_OneDimArray_Input();
 										System.out.println();
 									break;
 									case 4:
 										System.out.println();
-										new Prelim_TwoDimArray_Demo();
+										new Demo_TwoDimArray();
 										System.out.println();
 									break;
 									case 5:
 										System.out.println();
-										new Prelim_TwoDimArray_String();
+										new Demo_TwoDimArray_String();
 										System.out.println();
 									break;
 									case 6:
 										System.out.println();
-										new Prelim_TwoDimArray_Storing();
+										new Demo_TwoDimArray_Storing();
 										System.out.println();
 									break;
 									case 7:
 										System.out.println();
-										new Prelim_Method_Demo();
+										new Demo_Method();
 										System.out.println();
 									break;
 									case 8:
 										System.out.println();
-										new Prelim_Method_ReturnDemo();
+										new Demo_Method_Return();
 										System.out.println();
 									break;
 									case 9:
 										System.out.println();
-										new Prelim_Method_VoidDemo();
+										new Demo_Method_Void();
 										System.out.println();
 									break;
 									case 10:
 										System.out.println();
-										new Midterm_Stack_Demo();
+										new Demo_Stack();
 										System.out.println();
 									break;
 									case 11:
 										System.out.println();
-										new Midterm_String_ReversedWord();
+										new Demo_String_ReverseWord();
 										System.out.println();
 									break;
 									case 12:
 										System.out.println();
-										new Midterm_Stack_DecToBin();
+										new Demo_Stack_DecToBin();
 										System.out.println();
 									break;
 									default:
@@ -127,8 +127,8 @@ public class App {
 							do {
 								System.out.println("\nAll Activities under Prelim Period > | E | Exercises\n");
 								System.out.println("|  1 | Exercise # 1: Java Refresher");
-								System.out.println("|  2 | Exercise # 2: One Dimentional Array - Minimum, Maximum, Average");
-								System.out.println("|  3 | Exercise # 3: Two Dimentional Array - Minimum, Maximum, Average");
+								System.out.println("|  2 | Exercise # 2: One Dimensional Array - Minimum, Maximum, Average");
+								System.out.println("|  3 | Exercise # 3: Two Dimensional Array - Minimum, Maximum, Average");
                                 System.out.println("|  4 | Exercise # 4: Arrays - Faculty Listing, Type, Rate and Salary");
 								System.out.println("|  5 | Exercise # 5: Arrays - BubbleSort");
 								System.out.println("|  6 | Exercise # 6: Arrays - Linear Binary Search");

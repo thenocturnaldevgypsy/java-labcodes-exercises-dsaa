@@ -37,18 +37,18 @@ Meanwhile, the compiled output files `*.class` will be generated in the `bin` fo
 
 ### All Activities under Prelim Period
 **Demo**
-1. Demo # 1: One Dimentional Array (Demo_OneDimArray.java)
-2. Demo # 2: One Dimentional Array - Debug (Demo_OneDimArray_Debug)
-3. Demo # 3: One Dimentional Array - Input
-4. Demo # 4: Two Dimentional Array
-5. Demo # 5: Two Dimentional Array - String
-6. Demo # 6: Two Dimentional Array - Storing
-7. Demo # 7: Method
-8. Demo # 8: Method - Return
-9. Demo # 9: Method - Void
-10. Demo # 10: Stack
-11. Demo # 11: String - ReversedWord
-12. Demo # 12: Stack - Decimal To Binary
+1. Demo # 1: One Dimensional Array (Demo_OneDimArray.java)
+2. Demo # 2: One Dimensional Array - Debug (Demo_OneDimArray_Debug)
+3. Demo # 3: One Dimensional Array - Input (Demo_OneDimArray_Input.java)
+4. Demo # 4: Two Dimensional Array (Demo_TwoDimArray.java)
+5. Demo # 5: Two Dimensional Array - String (Demo_TwoDimArray_String.java)
+6. Demo # 6: Two Dimensional Array - Storing (Demo_TwoDimArray_Storing.java)
+7. Demo # 7: Method (Demo_Method.java)
+8. Demo # 8: Method - Return (Demo_Method_Return.java)
+9. Demo # 9: Method - Void (Demo_Method_Void.java)
+10. Demo # 10: Stack (Demo_Stack.java)
+11. Demo # 11: String - Reversed Word (Demo_String_ReverseWord.java)
+12. Demo # 12: Stack - Decimal To Binary (Demo_Stack_DecToBin.java)
 
 **Exercises (conditions and expected output)**
 1. Exercise # 1: Java Refresher
@@ -75,7 +75,7 @@ Kaya mo pa? <oo/yes> or <hinde/no>
 -  No/Hindi: Gutom lang yan.
 Nice meeting you <name>, sa uulitin!
 ```
-2. Exercise # 2: One Dimentional Array - Minimum, Maximum, Average
+2. Exercise # 2: One Dimensional Array - Minimum, Maximum, Average
 ```
 Create a Java Program with the following requirements:
 
@@ -111,7 +111,7 @@ The minimum is 1
 The maximum is 10
 The average is 5.5
 ```
-3. Exercise # 3: Two Dimentional Array - Minimum, Maximum, Average
+3. Exercise # 3: Two Dimensional Array - Minimum, Maximum, Average
 ```
 Create a Java Program with the following requirements:
 

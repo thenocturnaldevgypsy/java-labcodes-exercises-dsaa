@@ -1,15 +1,16 @@
 /*
  * Course: Data Structure and Algorithm Analysis
  * Period: Prelim
- * Demo Code # 10
+ * Demo # 10 : Stack, with push and pop
 */
 
 import java.*;
 import java.util.Stack;
 import java.util.Scanner;
 
-public class Midterm_Stack_Demo {
-	public Midterm_Stack_Demo() {
+public class Demo_Stack {
+	public Demo_Stack() {
+
         Scanner x = new Scanner (System.in);
         Stack sample = new Stack();
         
@@ -17,7 +18,7 @@ public class Midterm_Stack_Demo {
         int count = x.nextInt();        
                 
         for (int z=1;z<=count;z++) {
-            System.out.print("Enter number for item ["+z+"]: ");
+            System.out.print("Enter integer value for item ["+z+"]: ");
             int type = x.nextInt();
             sample.push(type);
         }
@@ -26,8 +27,10 @@ public class Midterm_Stack_Demo {
         System.out.println("Current TOP in our stack using peek: "+sample.peek());
         
         System.out.print("Let's pop all the items from top to bottom: ");
+
         do {
             System.out.print(sample.pop()+" ");
         } while (!sample.empty());
+
 	}
 }
