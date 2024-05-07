@@ -233,7 +233,7 @@ public class App {
 							internal = 1;
 							do {
 								System.out.println("\nAll Activities under Midterm Period > | D | Demo\n");
-								System.out.println("| 1 | Demo: Linked List");
+								System.out.println("| 1 | Demo # 1: Linked List");
 								System.out.print("\nEnter a choice [1], press 0 to GO BACK: ");
 								internal = x.nextInt();
 								switch (internal) {
@@ -253,11 +253,11 @@ public class App {
 							internal = 1;
 							do {
 								System.out.println("\nAll Activities under Midterm Period > | E | Exercises\n");
-								System.out.println("| 1 | Exercise #1 : Linked List - Linear Search");
-								System.out.println("| 2 | Exercise #2 : Linked List - Reversed Linear Search");
-								System.out.println("| 3 | Exercise #3 : One Dimensional Array - Queue");
-								System.out.println("| 4 | Exercise #4 : Linked List - Queue");
-                                System.out.println("| 5 | Exercise #5 : Linked List - Data Manipulation");
+								System.out.println("| 1 | Exercise # 1: Linked List - Linear Search");
+								System.out.println("| 2 | Exercise # 2: Linked List - Reversed Linear Search");
+								System.out.println("| 3 | Exercise # 3: One Dimensional Array - Queue");
+								System.out.println("| 4 | Exercise # 4: Linked List - Queue");
+                                System.out.println("| 5 | Exercise # 5: Linked List - Data Manipulation");
 								System.out.print("\nEnter a choice from 1 to 5, press 0 to GO BACK: ");
 								internal = x.nextInt();
 								switch (internal) {
@@ -310,7 +310,7 @@ public class App {
 						if (IndiGro.equalsIgnoreCase("e"))  {
 							do {
 								System.out.println("\nAll Activities under Pre-finals Period > | E | Exercises\n");
-								System.out.println("| 1 | Exercise #1 : Trees");
+								System.out.println("| 1 | Exercise # 1: Trees");
 								System.out.print("\nEnter a choice [1], press 0 to GO BACK: ");
 								internal = x.nextInt();
 								switch (internal) {
@@ -343,7 +343,7 @@ public class App {
 						if (IndiGro.equalsIgnoreCase("e"))  {
 							do {
 								System.out.println("\nAll Activities under Finals Period > | E | Exercises\n");
-								System.out.println("| 1 | Exercise #1 : Shellsort");
+								System.out.println("| 1 | Exercise # 1: N-sort");
 								System.out.print("\nEnter a choice [1], press 0 to GO BACK: ");
 								internal = x.nextInt();
 								switch (internal) {

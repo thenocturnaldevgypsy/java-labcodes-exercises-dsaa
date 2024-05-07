@@ -67,14 +67,22 @@ Meanwhile, the compiled output files `*.class` will be generated in the `bin` fo
 
 ### All Activities under Midterm Period
 **Demo**
+1. Demo # 1: Linked List
 
 **Exercises**
+1. Exercise # 1: Linked List - Linear Search
+2. Exercise # 2: Linked List - Reversed Linear Search
+3. Exercise # 3: One Dimensional Array - Queue
+4. Exercise # 4: Linked List - Queue
+5. Exercise # 5: Linked List - Data Manipulation
 
 ### All Activities under Pre-finals Period
 **Exercises**
+1. Exercise # 1: Trees
 
 ### All Activities under Finals Period
 **Exercises**
+1. Exercise # 1: N-sort
 
 <!-- ### Exercises under Prelim Period
 **Demo Codes before Exercises**
