@@ -58,13 +58,99 @@ middle = [3 + 3 = 6 / 2 = 3] = 3
 *
 */
 
-import java.*;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Prelim_Exercise6_LinearBinarySearch {
+
 	public Prelim_Exercise6_LinearBinarySearch() {
 
+		Scanner scanner = new Scanner(System.in);
 
+        //Ask for array size
+        int size = 0;
+        do {
+            System.out.print("Enter the size of the array: ");
+            size = scanner.nextInt();
+            if (size <= 0) {
+                System.out.println("Invalid input! Array size must be greater than 0.");
+            }
+        } while (size <= 0);
+        int[] arr = new int[size];
 
-	}
+        // Populate the array
+        for (int i = 0; i < size; i++) {
+            System.out.print("Enter value for [" + i + "] : ");
+            arr[i] = scanner.nextInt();
+        }
+
+        // Ask for the target value
+        System.out.print("Enter the target value to be searched: ");
+        int target = scanner.nextInt();
+
+        // Choose the searching algorithm
+        int choice = 0;
+        do {
+            System.out.println("[1] Linear Search | [2] Binary Search");
+            System.out.print("Choose the searching algorithm to be used [1 or 2]: ");
+            choice = scanner.nextInt();
+            if (choice != 1 && choice != 2) {
+                System.out.println("Invalid input! Please choose 1 or 2.");
+            }
+        } while (choice != 1 && choice != 2);
+
+        // Perform the chosen search
+        if (choice == 1) {
+            System.out.println("\nYou choose Linear Searching\n");
+            boolean found = false;
+            for (int i = 0; i < size; i++) {
+                System.out.println("- Is array[" + i + "] : " + arr[i] + " == " + target + "? " + (arr[i] == target ? "TRUE, stored at [" + i + "]" : "FALSE"));
+                if (arr[i] == target) {
+                    found = true;
+                }
+            }
+            if (!found) {
+                System.out.println("Target value not found in the array.");
+            }
+        } else {
+            System.out.println("\nYou choose Binary Searching\n");
+            // Sort the array before binary search
+            Arrays.sort(arr);
+            System.out.println("Let us sort the array first");
+            displayArray(arr);
+            System.out.println("Done sorting\n");
+
+            int low = 0;
+            int high = size - 1;
+            boolean found = false;
+            while (low <= high) {
+                int mid = (low + high) / 2;
+                System.out.println("middle = [" + low + " + " + high + " = " + (low + high) + " / 2 = " + mid + "]");
+                System.out.println("- Is array[" + mid + "] : " + arr[mid] + " <, >, = " + target + "? "
+                        + (arr[mid] < target ? "<," : (arr[mid] > target ? ">," : "="))
+                        + " " + (arr[mid] == target ? "TRUE, stored at [" + mid + "]" : "FALSE"));
+                if (arr[mid] == target) {
+                    found = true;
+                    break;
+                } else if (arr[mid] < target) {
+                    low = mid + 1;
+                } else {
+                    high = mid - 1;
+                }
+            }
+            if (!found) {
+                System.out.println("Target value not found in the array.");
+            }
+        }
+
+        //scanner.close();
+    }
+
+	public static void displayArray(int[] arr) {
+        for (int num : arr) {
+            System.out.print("[" + num + "]");
+        }
+        System.out.println();
+    }
+	
 }
