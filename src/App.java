@@ -126,19 +126,19 @@ public class App {
 							internal = 1;
 							do {
 								System.out.println("\nAll Activities under Prelim Period > | E | Exercises\n");
-								System.out.println("|  1 | Exercise # 1: Java Refresher");
-								System.out.println("|  2 | Exercise # 2: One Dimensional Array - Minimum, Maximum, Average");
-								System.out.println("|  3 | Exercise # 3: Two Dimensional Array - Minimum, Maximum, Average");
-                                System.out.println("|  4 | Exercise # 4: Arrays - Faculty Listing, Type, Rate and Salary");
-								System.out.println("|  5 | Exercise # 5: Arrays - BubbleSort");
-								System.out.println("|  6 | Exercise # 6: Arrays - Linear Binary Search");
-								System.out.println("|  7 | Exercise # 7: Arrays - InsertionSort and SelectionSort");
-								System.out.println("|  8 | Exercise # 8: Method - Operations");
-								System.out.println("|  9 | Exercise # 9: Method - Factorial");
-								System.out.println("| 10 | Exercise # 10: Method - TriangularNumber");
-								System.out.println("| 11 | Exercise # 11: Stack - Reversed Word");
-								System.out.println("| 12 | Exercise # 12: Stack - Leave Bracket Alone");
-								System.out.println("| 13 | Exercise # 13: Stack - Decimal Conversion");
+								System.out.println("|  1 | Exercise # 1: Java Refresher (Prelim_Exercise1_JavaRefresher.java)");
+								System.out.println("|  2 | Exercise # 2: One Dimensional Array - Minimum, Maximum, Average (Prelim_Exercise2_OneDimArray_MinMaxAve.java)");
+								System.out.println("|  3 | Exercise # 3: Two Dimensional Array - Minimum, Maximum, Average (Prelim_Exercise3_TwoDimArray_MinMaxAve.java)");
+                                System.out.println("|  4 | Exercise # 4: Arrays - Faculty Listing, Type, Rate and Salary (Prelim_Exercise4_FacultyPayslip.java)");
+								System.out.println("|  5 | Exercise # 5: Arrays - BubbleSort (Prelim_Exercise5_BubbleSort.java)");
+								System.out.println("|  6 | Exercise # 6: Arrays - Linear Binary Search (Prelim_Exercise6_LinearBinarySearch.java)");
+								System.out.println("|  7 | Exercise # 7: Arrays - Insertion Sort and Selection Sort (Prelim_Exercise7_InsertionSortSelectionSort.java)");
+								System.out.println("|  8 | Exercise # 8: Method - Operations (Prelim_Exercise8_Method_Operations.java)");
+								System.out.println("|  9 | Exercise # 9: Method - Factorial (Prelim_Exercise9_Method_Factorial.java)");
+								System.out.println("| 10 | Exercise # 10: Method - TriangularNumber (Prelim_Exercise10_Method_TriangularNumber.java)");
+								System.out.println("| 11 | Exercise # 11: Stack - Reversed Word (Prelim_Exercise11_Stack_ReverseWord.java)");
+								System.out.println("| 12 | Exercise # 12: Stack - Leave Bracket Alone (Prelim_Exercise12_Stack_Brackets.java)");
+								System.out.println("| 13 | Exercise # 13: Stack - Decimal Conversion (Prelim_Exercise13_DecimalConversion.java)");
 								System.out.print("\nEnter a choice from 1 to 13, press 0 to GO BACK: ");
 								internal = x.nextInt();
 								switch (internal) {
@@ -147,67 +147,67 @@ public class App {
 									break;
 									case 1:
 										System.out.println();
-										new Prelim_Individual();
+										new Prelim_Exercise1_JavaRefresher();
 										System.out.println();
 									break;
 									case 2:
 										System.out.println();
-										new Prelim_OneDimArray_MinMax();
+										new Prelim_Exercise2_OneDimArray_MinMaxAve();
 										System.out.println();
 									break;
 									case 3:
 										System.out.println();
-										new Prelim_TwoDimArray_MinMax();
+										new Prelim_Exercise3_TwoDimArray_MinMaxAve();
 										System.out.println();
 									break;
 									case 4:
 										System.out.println();
-										new Prelim_Array_FacRate();
+										new Prelim_Exercise4_FacultyPayslip();
 										System.out.println();
 									break;
 									case 5:
 										System.out.println();
-										new Prelim_BubbleSort();
+										new Prelim_Exercise5_BubbleSort();
 										System.out.println();
 									break;
 									case 6:
 										System.out.println();
-										new Prelim_LinearBinarySearch();
+										new Prelim_Exercise6_LinearBinarySearch();
 										System.out.println();
 									break;
 									case 7:
 										System.out.println();
-										new Prelim_InsertionSortSelectionSort();
+										new Prelim_Exercise7_InsertionSortSelectionSort();
 										System.out.println();
 									break;
 									case 8:
 										System.out.println();
-										new Prelim_Method_Operations();
+										new Prelim_Exercise8_Method_Operations();
 										System.out.println();
 									break;
 									case 9:
 										System.out.println();
-										new Prelim_Method_Factorial();
+										new Prelim_Exercise9_Method_Factorial();
 										System.out.println();
 									break;
 									case 10:
 										System.out.println();
-										new Prelim_Method_TriangularNumber();
+										new Prelim_Exercise10_Method_TriangularNumber();
 										System.out.println();
 									break;
 									case 11:
 										System.out.println();
-										new Midterm_Stack_ReversedWord();
+										new Prelim_Exercise11_Stack_ReverseWord();
 										System.out.println();
 									break;
 									case 12:
 										System.out.println();
-										new Midterm_Stack_LeaveBracket();
+										new Prelim_Exercise12_Stack_Brackets();
 										System.out.println();
 									break;
 									case 13:
 										System.out.println();
-										new Midterm_Stack_DecimalConversion();
+										new Prelim_Exercise13_DecimalConversion();
 										System.out.println();
 									break;
 									default:
@@ -233,7 +233,7 @@ public class App {
 							internal = 1;
 							do {
 								System.out.println("\nAll Activities under Midterm Period > | D | Demo\n");
-								System.out.println("| 1 | Demo # 1: Linked List");
+								System.out.println("| 1 | Demo # 1: Linked List (Demo_LinkedList.java)");
 								System.out.print("\nEnter a choice [1], press 0 to GO BACK: ");
 								internal = x.nextInt();
 								switch (internal) {
@@ -242,7 +242,7 @@ public class App {
 									break;
 									case 1:
 										System.out.println();
-										new Midterm_LinkedList_Demo();
+										new Demo_LinkedList();
 										System.out.println();
 									break;
 									default:

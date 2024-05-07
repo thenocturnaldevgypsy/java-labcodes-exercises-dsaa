@@ -1,14 +1,31 @@
 /*
  * Course: Data Structure and Algorithm Analysis
  * Period: Prelim
- * Activity # 10
+ * Exercise # 13 : All numeric conversion using Stack and multiple methods
+ * 
+ * Expected Output:
+ * 
+Enter a decimal number: 10
+Binary: 1010
+Octal: 12
+Hexadecimal: A
+
+Condition: You must use stack and the .push() and .pop() methods in this program. You must have a separate method for the following:
+
+- from Decimal to Binary
+- from Decimal to Octal
+- from Decimal to Hexadecimal
+
+This means you have one static void main and three customed methods in your program.
+ * 
 */
 
 import java.*;
 import java.util.*;
 
-public class Midterm_Stack_DecimalConversion {
-	public Midterm_Stack_DecimalConversion() {
+public class Prelim_Exercise13_DecimalConversion {
+
+	public Prelim_Exercise13_DecimalConversion() {
         Scanner input = new Scanner (System.in);
         int num;
         
@@ -90,4 +107,5 @@ public class Midterm_Stack_DecimalConversion {
             System.out.print(s.pop());
         }       
     }
+    
 }

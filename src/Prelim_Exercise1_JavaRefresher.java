@@ -1,14 +1,38 @@
 /*
  * Course: Data Structure and Algorithm Analysis
  * Period: Prelim
- * Activity # 1
+ * Exercise # 1 : Java Refresher
+ * 
+ * Expected Output:
+ * 
+Hi, what's your name: <name>
+Hello <name>, nice to meet you, how old are you? <age>
+-  If 20 and above: Eww, too old...
+-  Else: So young
+Give me anumber at mag-mamagic ako: <number> e.g. 4
+Magic Box:
+****
+****
+****
+****
+Isa pa, magic tatsulok!
+*
+**
+***
+****
+Kaya mo pa? <oo/yes> or <hinde/no>
+-  Yes/Oo: Good
+-  No/Hindi: Gutom lang yan.
+Nice meeting you <name>, sa uulitin!
+ * 
 */
 
 import java.*;
 import java.util.Scanner;
 
-public class Prelim_Individual {
-	public Prelim_Individual() {
+public class Prelim_Exercise1_JavaRefresher {
+	public Prelim_Exercise1_JavaRefresher() {
+
         Scanner x = new Scanner (System.in);
         int age, magic;
         String name, answer;
@@ -37,10 +61,13 @@ public class Prelim_Individual {
         
         System.out.println("Isa pa, mahiwagang tatsulok!");
         int countri = 1;
+
         for (int rowt=0;rowt<magic;rowt++) {
+
             for (int colt=0;colt<countri;colt++) {
                 System.out.print("* ");
             }
+
         countri++;
         System.out.println();
         }
@@ -58,6 +85,8 @@ public class Prelim_Individual {
                 System.out.print("Gutom lang yan! ");
             break;
         }        
+
         System.out.print("Nice meeting you "+ name +", sa uulitin!");		
+
 	}
 }

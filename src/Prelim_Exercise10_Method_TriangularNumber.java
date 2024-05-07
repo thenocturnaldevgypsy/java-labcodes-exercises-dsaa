@@ -1,14 +1,31 @@
 /*
  * Course: Data Structure and Algorithm Analysis
  * Period: Prelim
- * Activity # 7
+ * Exercise # 10 : Triangular Number using Method
+ * 
+ * Expected Output:
+ * 
+Enter a number: 6
+
+*
+**
+***
+****
+*****
+******
+
+The triangular number of 6 is 21.
+
+Condition: The generation of the asterisk and computing the triangular number must be coded and perfomed in methods, meaning you must have one void main and two methods in your program (one java method for generating the asterisk of the triangular number and one method for computing the triangular number).
+ * 
 */
 
 import java.*;
 import java.util.Scanner;
 
-public class Prelim_Method_TriangularNumber {
-	public Prelim_Method_TriangularNumber() {
+public class Prelim_Exercise10_Method_TriangularNumber {
+
+	public Prelim_Exercise10_Method_TriangularNumber() {
         Scanner sn = new Scanner (System.in);
         int num;
         boolean validate, triangular;
@@ -43,4 +60,5 @@ public class Prelim_Method_TriangularNumber {
         }
         return astk;
     }
+    
 }

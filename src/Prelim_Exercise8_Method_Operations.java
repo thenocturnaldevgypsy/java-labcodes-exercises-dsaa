@@ -1,14 +1,29 @@
 /*
  * Course: Data Structure and Algorithm Analysis
  * Period: Prelim
- * Activity # 5
+ * Exercise # 8 : All operations using Methods
+ * 
+ * Expected Output:
+ * 
+Enter 2 numbers
+7
+3
+
+7 + 3 = 10
+7 - 3 = 4
+7 x 3 = 21
+7 / 3 = 2.0
+
+Condition: Each operation (addition, subtraction, multiplication and division) must be coded and perfomed in separate methods, meaning you must have one void main and four methods in your program (one java method for addition, one java method for subtraction, one java method for multiplication and one java method for division).
+ * 
 */
 
 import java.*;
 import java.util.Scanner;
 
-public class Prelim_Method_Operations {
-    public Prelim_Method_Operations () {     
+public class Prelim_Exercise8_Method_Operations {
+
+    public Prelim_Exercise8_Method_Operations () {     
         Scanner x = new Scanner (System.in);
         int num1, num2, add, sub, mul;
         double  div;
@@ -46,4 +61,5 @@ public class Prelim_Method_Operations {
         double div = num1 / num2;
         return div;
     }
+
 }

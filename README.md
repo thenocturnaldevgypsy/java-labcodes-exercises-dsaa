@@ -4,13 +4,13 @@ This repository contains the Java Lab Code Exercises that I've created and used 
 
 If you want to ask some questions about it, feel free to start a discussion or an issue, I'll try my best to answer.
 
-*NOTE: I've created this repo as a reminder to myself that Java has been one of the programming languages that I have in my **IT Personal Skillset Roadmap**. It's also a good way to refresh my Java, GitHub and Markdown skills.*
+*NOTE: I've created this repo as a reminder to myself that Java was one of the programming languages I got **heavily** exposed when I was teaching in College/University. It's also a good way to refresh my Java, GitHub and Markdown skills. And just a reminder, the codes here were initially made way back 2012 and been updated regularly until 2015. So I only did some **best effort** to make sure that the codes that are in this repo can be compiled and can be read thru by users.*
 
 ### Updates/Progress
 
-- **07/05/2024**
-    - 10:42 PM [GMT+7/Hanoi] : Tried pulling the repo to my local unit using VS Code, need to retweak `App.java`, especially if some users wanted to try it out and won't get confused with the menu, reuploaded all required folders and source codes.
-    - 3:15 PM [GMT+7/Hanoi] : Created `java-labcodes-exercises-dsaa` GitHub `public` repository, added MIT License, and uploaded the original Java codes that I've used way back 2012.
+- **07/05 to 08/05, 2024**
+    - 07/05 10:42 PM [GMT+7/Hanoi] : Tried pulling the repo to my local unit using VS Code, need to retweak `App.java`, especially if some users wanted to try it out and won't get confused with the menu, reuploaded all required folders and source codes.
+    - 07/05 3:15 PM [GMT+7/Hanoi] : Created `java-labcodes-exercises-dsaa` GitHub `public` repository, added MIT License, and uploaded the original Java codes that I've used way back 2012.
 
 ### Folder Structure
 
@@ -51,7 +51,7 @@ Meanwhile, the compiled output files `*.class` will be generated in the `bin` fo
 12. Demo # 12: Stack - Decimal To Binary (Demo_Stack_DecToBin.java)
 
 **Exercises (conditions and expected output)**
-1. Exercise # 1: Java Refresher
+1. Exercise # 1: Java Refresher (Prelim_Exercise1_JavaRefresher.java)
 ```
 Create a Java Program with the following output:
 
@@ -75,7 +75,7 @@ Kaya mo pa? <oo/yes> or <hinde/no>
 -  No/Hindi: Gutom lang yan.
 Nice meeting you <name>, sa uulitin!
 ```
-2. Exercise # 2: One Dimensional Array - Minimum, Maximum, Average
+2. Exercise # 2: One Dimensional Array - Minimum, Maximum, Average (Prelim_Exercise2_OneDimArray_MinMaxAve.java)
 ```
 Create a Java Program with the following requirements:
 
@@ -111,7 +111,7 @@ The minimum is 1
 The maximum is 10
 The average is 5.5
 ```
-3. Exercise # 3: Two Dimensional Array - Minimum, Maximum, Average
+3. Exercise # 3: Two Dimensional Array - Minimum, Maximum, Average (Prelim_Exercise3_TwoDimArray_MinMaxAve.java)
 ```
 Create a Java Program with the following requirements:
 
@@ -148,7 +148,7 @@ The minimum is 0, stored at [3][0]
 The maximum is 100, stored at [1][2]
 The average is 7.0
 ```
-4. Exercise # 4: Arrays - Faculty Listing, Type, Rate and Salary
+4. Exercise # 4: Arrays - Faculty Listing, Type, Rate and Salary (Prelim_Exercise4_FacultyPayslip.java)
 ```
 Create a Java program with the following requirements:
 
@@ -227,7 +227,7 @@ Rate: 150.00
 Number of Hours: 10
 Salary: 1,500.00
 ```
-5. Exercise # 5: Arrays - BubbleSort
+5. Exercise # 5: Arrays - BubbleSort (Prelim_Exercise5_BubbleSort.java)
 ```
 Output:
 
@@ -303,7 +303,7 @@ Reached the end of the list. Swap > 0? FALSE. Process complete.
 
 Display sorted list: 1 2 3 4 5 6 7 8 9 10
 ```
-6. Exercise # 6: Arrays - Linear Binary Search
+6. Exercise # 6: Arrays - Linear Binary Search (Prelim_Exercise6_LinearBinarySearch.java)
 ```
 Create a Java program with the following requirements:
 
@@ -358,7 +358,7 @@ middle = [3 + 4 = 7 / 2 = 3.5] = 4
 middle = [3 + 3 = 6 / 2 = 3] = 3
 - Is array[3] : 6 <, >, =  6? =, TRUE, stored at [3]
 ```
-7. Exercise # 7: Arrays - InsertionSort and SelectionSort
+7. Exercise # 7: Arrays - InsertionSort and SelectionSort (Prelim_Exercise7_InsertionSortSelectionSort.java)
 ```
 Create a Java program with the following requirements/0utput:
 
@@ -513,7 +513,7 @@ Reached the end of the list. Found new minimum. Swap [8]: 9 with [9]: 8.
 
 Display sorted list: 0 1 2 3 4 5 6 7 8 9 
 ```
-8. Exercise # 8: Method - Operations
+8. Exercise # 8: Method - Operations (Prelim_Exercise8_Method_Operations.java)
 ```
 Create a Java Program based on the output below:
 
@@ -528,7 +528,7 @@ Enter 2 numbers
 
 Condition: Each operation (addition, subtraction, multiplication and division) must be coded and perfomed in separate methods, meaning you must have one void main and four methods in your program (one java method for addition, one java method for subtraction, one java method for multiplication and one java method for division).
 ```
-9. Exercise # 9: Method - Factorial
+9. Exercise # 9: Method - Factorial (Prelim_Exercise9_Method_Factorial.java)
 ```
 Create a Java Program based on the output below:
 
@@ -537,7 +537,7 @@ The factorial of 7 is 5040
  
 Condition: The computation of the factorial must be coded and perfomed in a method, meaning you must have one void main and one method in your program (one java method for the factorial).
 ```
-10. Exercise # 10: Method - TriangularNumber
+10. Exercise # 10: Method - TriangularNumber (Prelim_Exercise10_Method_TriangularNumber.java)
 ```
 Create a Java program with the following requirements/output:
 
@@ -554,7 +554,7 @@ The triangular number of 6 is 21.
 
 Condition: The generation of the asterisk and computing the triangular number must be coded and perfomed in methods, meaning you must have one void main and two methods in your program (one java method for generating the asterisk of the triangular number and one method for computing the triangular number).
 ```
-11. Exercise # 11: Stack - Reversed Word
+11. Exercise # 11: Stack - Reversed Word (Prelim_Exercise11_Stack_ReverseWord.java)
 ```
 Create a Java program with the following requirements/output:
 
@@ -563,7 +563,7 @@ Reversed Word: EMIT
 
 Condition: You must use stack and the .push() and .pop() methods in this program.
 ```
-12. Exercise # 12: Stack - Leave Bracket Alone
+12. Exercise # 12: Stack - Leave Bracket Alone (Prelim_Exercise12_Stack_Brackets.java)
 ```
 Create a Java program with the following requirements/output:
 
@@ -572,7 +572,7 @@ Trimmed statement: {{}{}}{{{}
 
 Condition: You must use stack and the .push() and .pop() methods in this program.
 ```
-13. Exercise # 13: Stack - Decimal Conversion
+13. Exercise # 13: Stack - Decimal Conversion (Prelim_Exercise13_DecimalConversion.java)
 ```
 Create a Java program with the following requirements/output:
 
@@ -592,7 +592,7 @@ This means you have one static void main and three customed methods in your prog
 
 ### All Activities under Midterm Period
 **Demo**
-1. Demo # 1: Linked List
+1. Demo # 1: Linked List (Demo_LinkedList.java)
 
 **Exercises (conditions and expected output)**
 1. Exercise # 1: Linked List - Linear Search

@@ -1,14 +1,25 @@
 /*
  * Course: Data Structure and Algorithm Analysis
  * Period: Prelim
- * Activity # 6
+ * Exercise # 9 : Factorial using Method
+ * 
+ * Expected Output:
+ * 
+Create a Java Program based on the output below:
+
+Enter a number: 7
+The factorial of 7 is 5040
+ 
+Condition: The computation of the factorial must be coded and perfomed in a method, meaning you must have one void main and one method in your program (one java method for the factorial).
+ * 
 */
 
 import java.*;
 import java.util.Scanner;
 
-public class Prelim_Method_Factorial {
-    public Prelim_Method_Factorial () {        
+public class Prelim_Exercise9_Method_Factorial {
+
+    public Prelim_Exercise9_Method_Factorial () {        
         Scanner x = new Scanner (System.in);
         int num, result;
         
@@ -25,4 +36,5 @@ public class Prelim_Method_Factorial {
         }
         return fact;
     }
+
 }
