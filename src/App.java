@@ -1,7 +1,7 @@
 /*
  * Course: Data Structure and Algorithm Analysis
  * Period: Finals
- * Group Activity # 2
+ * Exercise # 3 : Compilation of Java Lab Demo and Exercises
 */
 
 import java.util.Scanner;
@@ -253,11 +253,11 @@ public class App {
 							internal = 1;
 							do {
 								System.out.println("\nAll Activities under Midterm Period > | E | Exercises\n");
-								System.out.println("| 1 | Exercise # 1: Linked List - Linear Search");
-								System.out.println("| 2 | Exercise # 2: Linked List - Reversed Linear Search");
-								System.out.println("| 3 | Exercise # 3: One Dimensional Array - Queue");
-								System.out.println("| 4 | Exercise # 4: Linked List - Queue");
-                                System.out.println("| 5 | Exercise # 5: Linked List - Data Manipulation");
+								System.out.println("| 1 | Exercise # 1: Linked List - Linear Search (Midterm_Exercise1_LinkedList_LinearSearch.java)");
+								System.out.println("| 2 | Exercise # 2: Linked List - Reversed Linear Search (Midterm_Exercise2_LinkedList_ReversedLinearSearch.java)");
+								System.out.println("| 3 | Exercise # 3: One Dimensional Array - Queue (Midterm_Exercise3_OneDimArray_Queue.java)");
+								System.out.println("| 4 | Exercise # 4: Linked List - Queue (Midterm_Exercise4_LinkedList_Queue.java)");
+                                System.out.println("| 5 | Exercise # 5: Linked List - Data Manipulation (Midterm_Exercise5_LinkedList_DataManipulation.java)");
 								System.out.print("\nEnter a choice from 1 to 5, press 0 to GO BACK: ");
 								internal = x.nextInt();
 								switch (internal) {
@@ -266,27 +266,27 @@ public class App {
 									break;
 									case 1:
 										System.out.println();
-										new Midterm_LinkedList_LinearSearch();
+										new Midterm_Exercise1_LinkedList_LinearSearch();
 										System.out.println();
 									break;
 									case 2:
 										System.out.println();
-										new Midterm_LinkedList_ReversedLinearSearch();
+										new Midterm_Exercise2_LinkedList_ReversedLinearSearch();
 										System.out.println();
 									break;
 									case 3:
 										System.out.println();
-										new Prefinal_OneDimArray_Queue();
+										new Midterm_Exercise3_OneDimArray_Queue();
 										System.out.println();
 									break;
 									case 4:
 										System.out.println();
-										new Prefinal_LinkedList_Queue();
+										new Midterm_Exercise4_LinkedList_Queue();
 										System.out.println();
 									break;
 									case 5:
 										System.out.println();
-										new Midterm_LinkedList_DataManipulation();
+										new Midterm_Exercise5_LinkedList_DataManipulation();
 										System.out.println();
 									break;
 									default:
@@ -310,7 +310,7 @@ public class App {
 						if (IndiGro.equalsIgnoreCase("e"))  {
 							do {
 								System.out.println("\nAll Activities under Pre-finals Period > | E | Exercises\n");
-								System.out.println("| 1 | Exercise # 1: Trees");
+								System.out.println("| 1 | Exercise # 1: Trees (Prefinal_Exercise1_Trees.java)");
 								System.out.print("\nEnter a choice [1], press 0 to GO BACK: ");
 								internal = x.nextInt();
 								switch (internal) {
@@ -319,7 +319,7 @@ public class App {
 									break;
 									case 1:
 										System.out.println();
-										new Prefinal_Trees();
+										new Prefinal_Exercise1_Trees();
 										System.out.println();
 									break;
 									default:
@@ -343,7 +343,7 @@ public class App {
 						if (IndiGro.equalsIgnoreCase("e"))  {
 							do {
 								System.out.println("\nAll Activities under Finals Period > | E | Exercises\n");
-								System.out.println("| 1 | Exercise # 1: N-sort");
+								System.out.println("| 1 | Exercise # 1: N-sort (Finals_Exercise1_NSort.java)");
 								System.out.print("\nEnter a choice [1], press 0 to GO BACK: ");
 								internal = x.nextInt();
 								switch (internal) {
@@ -352,7 +352,7 @@ public class App {
 									break;
 									case 1:
 										System.out.println();
-										new Finals_Shellsort();
+										new Finals_Exercise1_NSort();
 										System.out.println();
 									break;
 									default:
@@ -370,8 +370,8 @@ public class App {
 				case 5:
 					System.out.println();
 					System.out.println("\nYou've selected | 5 | Individual Summary Notes\n");
-					System.out.println("\n-----\n");
-					new Finals_SubjectFeedback();
+					System.out.println("-----\n");
+					new TheEnd_Feedback();
 					System.out.println("\n\n-----\n");
 				break;
 				default: // if value more than the option allowed

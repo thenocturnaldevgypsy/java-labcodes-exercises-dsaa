@@ -1,14 +1,96 @@
 /*
  * Course: Data Structure and Algorithm Analysis
  * Period: Midterm
- * Activity # 3
+ * Exercise # 3 : Queue with One Dimensional Array
+  * 
+ * Expected Output:
+ * 
+Create a Java program (REQUIREMENT: Use a one dimensional array for storing the information) with the following requirements/output:
+
+This program will demonstrate how to represent Queue in One-Dimensional Array.
+
+What do you want to do [1-Enqueue|2-Dequeue|3-Peek|4-Quit]? 1
+
+ENQUEUE [0]: abby
+abby Enqueued at [0]
+
+= Current content of the Queue =
+[2] :  
+[1] :  
+[0] : abby
+
+What do you want to do [1-Enqueue|2-Dequeue|3-Peek|4-Quit]? 1
+
+ENQUEUE [1]: jeff
+jeff Enqueued at [1]
+
+= Current content of the Queue =
+[2] :  
+[1] : jeff
+[0] : abby
+
+What do you want to do [1-Enqueue|2-Dequeue|3-Peek|4-Quit]? 1
+
+ENQUEUE [2]: jacob
+jacob Enqueued at [2]
+
+= Current content of the Queue =
+[2] : jacob
+[1] : jeff
+[0] : abby
+
+What do you want to do [1-Enqueue|2-Dequeue|3-Peek|4-Quit]? 3
+PEEK: abby
+
+= Current content of the Queue =
+[2] : jacob
+[1] : jeff
+[0] : abby
+
+What do you want to do [1-Enqueue|2-Dequeue|3-Peek|4-Quit]? 2
+
+DEQUEUE [abby]
+
+= Current content of the Queue =
+[2] :  
+[1] : jacob
+[0] : jeff
+
+What do you want to do [1-Enqueue|2-Dequeue|3-Peek|4-Quit]? 2
+
+DEQUEUE [jeff]
+
+= Current content of the Queue =
+[2] :  
+[1] :  
+[0] : jacob
+
+What do you want to do [1-Enqueue|2-Dequeue|3-Peek|4-Quit]? 2
+
+DEQUEUE [jacob]
+
+= Current content of the Queue =
+[2] :  
+[1] :  
+[0] :  
+
+What do you want to do [1-Enqueue|2-Dequeue|3-Peek|4-Quit]? 4
+
+= Current content of the Queue =
+[2] :  
+[1] :  
+[0] :  
+
+Process completed.
+ * 
 */
 
 import java.*;
 import java.util.Scanner;
 
-public class Prefinal_OneDimArray_Queue {
-	public Prefinal_OneDimArray_Queue() {
+public class Midterm_Exercise3_OneDimArray_Queue {
+	public Midterm_Exercise3_OneDimArray_Queue () {
+
 		Scanner x = new Scanner (System.in);
 		String[] name = new String [3];
 		name[0] = " ";
@@ -55,5 +137,6 @@ public class Prefinal_OneDimArray_Queue {
 			}
             System.out.println();
 		} while (loop == 1);
+		
 	}
 }

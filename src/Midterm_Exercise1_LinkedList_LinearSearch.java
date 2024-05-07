@@ -1,15 +1,32 @@
 /*
  * Course: Data Structure and Algorithm Analysis
  * Period: Midterm
- * Activity # 1
+ * Exercise # 1 : Linear Search using Linked List
+ * 
+ * Expected Output:
+ * 
+Enter name to be added in our Linked List: Anna
+Add new record to our linked list [1-Yes|0-No] ? 1
+Enter name to be added in our Linked List: Karen
+Add new record to our linked list [1-Yes|0-No] ? 1
+Enter name to be added in our Linked List: Nina
+Add new record to our linked list [1-Yes|0-No] ? 0
+
+Let's show the records stored in our linked list [Anna, Karen, Nina]
+
+Type in the name that you want to search: Karen
+> Is [0]: Anna == Karen? FALSE
+> Is [1]: Karen == Karen? TRUE, stored at [1]
+ * 
 */
 
 import java.*;
 import java.util.Scanner;
 import java.util.LinkedList;
 
-public class Midterm_LinkedList_LinearSearch {
-	public Midterm_LinkedList_LinearSearch() {
+public class Midterm_Exercise1_LinkedList_LinearSearch {
+	public Midterm_Exercise1_LinkedList_LinearSearch() {
+
         int add = 1, counter = 0, loop = 0;
         String input;
         boolean found = false;
@@ -46,5 +63,6 @@ public class Midterm_LinkedList_LinearSearch {
         if (found == false && loop == counter) {
             System.out.print("VALUE NOT EXISTING");
         }
+        
 	}
 }

@@ -595,7 +595,7 @@ This means you have one static void main and three customed methods in your prog
 1. Demo # 1: Linked List (Demo_LinkedList.java)
 
 **Exercises (conditions and expected output)**
-1. Exercise # 1: Linked List - Linear Search
+1. Exercise # 1: Linked List - Linear Search (Midterm_Exercise1_LinkedList_LinearSearch.java)
 ```
 Create a Java program with the following requirements/output:
 
@@ -612,7 +612,7 @@ Type in the name that you want to search: Karen
 > Is [0]: Anna == Karen? FALSE
 > Is [1]: Karen == Karen? TRUE, stored at [1]
 ```
-2. Exercise # 2: Linked List - Reversed Linear Search
+2. Exercise # 2: Linked List - Reversed Linear Search (Midterm_Exercise2_LinkedList_ReversedLinearSearch.java)
 ```
 Create a Java program with the following requirements/output:
 
@@ -630,7 +630,7 @@ Type in the name that you want to search: Anna
 > Is [1]: Karen == Anna? FALSE
 > Is [0]: Anna == Anna? TRUE, stored at [1]
 ```
-3. Exercise # 3: One Dimensional Array - Queue
+3. Exercise # 3: One Dimensional Array - Queue (Midterm_Exercise3_OneDimArray_Queue.java)
 ```
 Create a Java program (REQUIREMENT: Use a one dimensional array for storing the information) with the following requirements/output:
 
@@ -710,7 +710,7 @@ What do you want to do [1-Enqueue|2-Dequeue|3-Peek|4-Quit]? 4
 
 Process completed.
 ```
-4. Exercise # 4: Linked List - Queue
+4. Exercise # 4: Linked List - Queue (Midterm_Exercise4_LinkedList_Queue.java)
 ```
 Create a Java program (REQUIREMENT: Use a linked list for storing the information) with the following requirements/output:
 
@@ -765,7 +765,7 @@ Current content of the Queue []
 
 Process completed.
 ```
-5. Exercise # 5: Linked List - Data Manipulation
+5. Exercise # 5: Linked List - Data Manipulation (Midterm_Exercise5_LinkedList_DataManipulation.java)
 ```
 Create a Java program with the following requirements/output:
 
@@ -803,7 +803,7 @@ Condition: The program will only stop asking for the value to be searched and pe
 
 ### All Activities under Pre-finals Period
 **Exercises (conditions and expected output)**
-1. Exercise # 1: Trees
+1. Exercise # 1: Trees (Prefinal_Exercise1_Trees.java)
 ```
 Create a Java program with the following requirements: 
 
@@ -868,7 +868,7 @@ Process Complete.
 
 ### All Activities under Finals Period
 **Exercises (conditions and expected output)**
-1. Exercise # 1: N-sort
+1. Exercise # 1: N-sort (Finals_Exercise1_NSort.java)
 ```
 Create a Java program with the following requirements: 
 
@@ -910,7 +910,8 @@ Sorted content of the 4-sorted:
 4  3  2  1  
 8  7  6  5
 ```
-2. Exercise # 2: App.java (Final)
+2. The End - Feedback to the Course (TheEnd_Feedback.java)
+3. Exercise # 3: Compilation of all Programs (App.java)
 
 <!-- ### Exercises under Prelim Period
 **Demo Codes before Exercises**

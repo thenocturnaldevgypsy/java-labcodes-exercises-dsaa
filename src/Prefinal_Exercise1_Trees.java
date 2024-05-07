@@ -1,14 +1,77 @@
 /*
  * Course: Data Structure and Algorithm Analysis
  * Period: Pre-final
- * Group Activity # 1
+ * Exercise # 1: Trees
+ * 
+ * Expected Output:
+ * 
+Create a Java program with the following requirements: 
+
+REQUIREMENTS: use one dimensional array for storing the values in the tree. Note of the assigned array index for each level:
+ 
+int[] array = new int[15]; 
+
+Level 1: array[0]
+Level 2: array[1], array[2]
+Level 3: array[3], array[4], array[5], array[6]
+level 4: array[7], array[8], array[9], array[10], array[11], array[12], array[13], array[14]
+
+Skip the delete option at the moment.
+ 
+
+Output:
+
+Current nodes of the tree:
+
+*show the updated triangular shape of the tree here*
+
+[1-Insert|2-Find|3-Delete|4-Inorder Traversal|5-Preorder Traversal|6-Postorder Traversal|7-Quit]
+What do you want to do? 1
+
+Value to be inserted: 45
+
+Current nodes of the tree:
+
+*show the updated triangular shape of the tree here*
+
+[1-Insert|2-Find|3-Delete|4-Inorder Traversal|5-Preorder Traversal|6-Postorder Traversal|7-Quit]
+What do you want to do? 2
+
+Search for: 45
+
+45 is stored at Level 3.
+
+[1-Insert|2-Find|3-Delete|4-Inorder Traversal|5-Preorder Traversal|6-Postorder Traversal|7-Quit]
+What do you want to do? 4
+
+Inorder Traversal: 30 40 45 50 55 60 80
+
+[1-Insert|2-Find|3-Delete|4-Inorder Traversal|5-Preorder Traversal|6-Postorder Traversal|7-Quit]
+What do you want to do? 5
+
+Preorder Traversal: 50 40 30 45 60 55 80
+
+[1-Insert|2-Find|3-Delete|4-Inorder Traversal|5-Preorder Traversal|6-Postorder Traversal|7-Quit]
+What do you want to do? 6
+
+Postorder Traversal: 30 45 40 55 80 60 50
+
+[1-Insert|2-Find|3-Delete|4-Inorder Traversal|5-Preorder Traversal|6-Postorder Traversal|7-Quit]
+What do you want to do? 7
+
+Current nodes of the tree:
+
+*show the updated triangular shape of the tree here*
+
+Process Complete.
+ * 
 */
 
 import java.*;
 import java.util.Scanner;
 
-public class Prefinal_Trees {
-	public Prefinal_Trees() {
+public class Prefinal_Exercise1_Trees {
+	public Prefinal_Exercise1_Trees () {
 		Scanner x = new Scanner (System.in);
 		int[] tree = new int[15];
 		int decision = 0, inTree =0, seeTree = 0;
