@@ -245,6 +245,13 @@ public class Prefinal_Exercise1_Trees {
 			System.out.println("Level 3 : [ 3:"+tree[3]+" ]  ||  [ 4:"+tree[4]+" ]  |||  [ 5:"+tree[5]+" ]  ||  [ 6:"+tree[6]+" ]");
 			System.out.println("Level 4 : [ 7:"+tree[7]+" ]  |  [ 8:"+tree[8]+" ]  ||  [ 9:"+tree[9]+" ]  |  [ 10:"+tree[10]+" ]  |||  [ 11:"+tree[11]+" ]  |  [ 12:"+tree[12]+" ]  ||  [ 13:"+tree[13]+" ]  |  [ 14:"+tree[14]+" ]\n");
 
+/* 			System.out.println("\nUpdated content of the Tree:\n");
+			System.out.println("Level 1 : [ "+tree[0]+" ]");
+			System.out.println("Level 2 : [ "+tree[1]+" ]  |||  [ "+tree[2]+" ]");
+			System.out.println("Level 3 : [ "+tree[3]+" ]  ||  [ "+tree[4]+" ]  |||  [ "+tree[5]+" ]  ||  [ "+tree[6]+" ]");
+			System.out.println("Level 4 : [ "+tree[7]+" ]  |  [ "+tree[8]+" ]  ||  [ "+tree[9]+" ]  |  [ "+tree[10]+" ]  |||  [ "+tree[11]+" ]  |  [ "+tree[12]+" ]  ||  [ "+tree[13]+" ]  |  [ "+tree[14]+" ]\n");
+ */
+
 		} while (decision != 7);
 	}
 }
