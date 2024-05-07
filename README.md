@@ -4,7 +4,7 @@ This repository contains the Java Lab Code Exercises that I've created and used 
 
 If you want to ask some questions about it, feel free to start a discussion or an issue, I'll try my best to answer.
 
-*NOTE: I've created this repo as a reminder to myself that Java was one of the programming languages I got **heavily** exposed when I was teaching in College/University. It's also a good way to refresh my Java, GitHub and Markdown skills. And just a reminder, the codes here were initially made way back 2012 and been updated regularly until 2015. So I only did some **best effort** to make sure that the codes that are in this repo can be compiled and can be read thru by users.*
+> *NOTE: I've created this repo as a reminder to myself that Java was one of the programming languages I got **heavily** exposed when I was teaching in College/University. It's also a good way to refresh my Java, GitHub and Markdown skills. And just a reminder, the codes here were initially made way back 2012 and been updated regularly until 2015. So I only did some **best effort** to make sure that the codes that are in this repo can be compiled and can be read thru by users.*
 
 ### Updates/Progress
 
