@@ -24,7 +24,7 @@ Meanwhile, the compiled output files `*.class` will be generated in the `bin` fo
 *If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings.*
 
 ## Contents and Breakdown
-- All Activities under Prelim Period
+- [All Activities under Prelim Period](all-activities-under-prelim-period)
     - Demo
     - Exercises (with sample output)
 - All Activities under Midterm Period
