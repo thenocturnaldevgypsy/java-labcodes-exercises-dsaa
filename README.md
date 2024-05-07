@@ -37,8 +37,33 @@ Meanwhile, the compiled output files `*.class` will be generated in the `bin` fo
 
 ### All Activities under Prelim Period
 **Demo**
+1. Demo # 1: One Dimentional Array (Demo_OneDimArray.java)
+2. Demo # 2: One Dimentional Array - Debug (Demo_OneDimArray_Debug)
+3. Demo # 3: One Dimentional Array - Input
+4. Demo # 4: Two Dimentional Array
+5. Demo # 5: Two Dimentional Array - String
+6. Demo # 6: Two Dimentional Array - Storing
+7. Demo # 7: Method
+8. Demo # 8: Method - Return
+9. Demo # 9: Method - Void
+10. Demo # 10: Stack
+11. Demo # 11: String - ReversedWord
+12. Demo # 12: Stack - Decimal To Binary
 
 **Exercises**
+1. Exercise # 1: Java Refresher
+2. Exercise # 2: One Dimentional Array - Minimum, Maximum, Average
+3. Exercise # 3: Two Dimentional Array - Minimum, Maximum, Average
+4. Exercise # 4: Arrays - Faculty Listing, Type, Rate and Salary
+5. Exercise # 5: Arrays - BubbleSort
+6. Exercise # 6: Arrays - Linear Binary Search
+7. Exercise # 7: Arrays - InsertionSort and SelectionSort
+8. Exercise # 8: Method - Operations
+9. Exercise # 9: Method - Factorial
+10. Exercise # 10: Method - TriangularNumber
+11. Exercise # 11: Stack - Reversed Word
+12. Exercise # 12: Stack - Leave Bracket Alone
+13. Exercise # 13: Stack - Decimal Conversion
 
 ### All Activities under Midterm Period
 **Demo**
@@ -53,15 +78,15 @@ Meanwhile, the compiled output files `*.class` will be generated in the `bin` fo
 
 <!-- ### Exercises under Prelim Period
 **Demo Codes before Exercises**
-1. Prelim_Method_Demo.java
-2. Prelim_Method_ReturnDemo.java
-3. Prelim_Method_VoidDemo.java
-4. Prelim_OneDimArray_Demo.java
-5. Prelim_OneDimArray_Input.java
-6. Prelim_OneDimArray_Debug.java
-7. Prelim_TwoDimArray_Demo.java
-8. Prelim_TwoDimArray_Storing.java
-9. Prelim_TwoDimArray_String.java
+1. Prelim_Method_Demo.java x
+2. Prelim_Method_ReturnDemo.java x
+3. Prelim_Method_VoidDemo.java x
+4. Prelim_OneDimArray_Demo.java x
+5. Prelim_OneDimArray_Input.java x
+6. Prelim_OneDimArray_Debug.java x
+7. Prelim_TwoDimArray_Demo.java x
+8. Prelim_TwoDimArray_Storing.java x
+9. Prelim_TwoDimArray_String.java x
 
 **Individual Exercises Description and Filenames**
 1. Prelim_Individual.java
@@ -575,13 +600,13 @@ Display sorted list: 0 1 2 3 4 5 6 7 8 9
 
 ### Exercises under Midterm Period
 **Demo Codes before Exercises**
-1. Midterm_Stack_Demo.java
-2. Midterm_String_ReversedWord.java
-3. Midterm_Stack_DecToBin.java
+1. Midterm_Stack_Demo.java x
+2. Midterm_String_ReversedWord.java x 
+3. Midterm_Stack_DecToBin.java x
 4. Midterm_LinkedList_Demo.java
 
 **Individual Exercises Description and Filenames**
-1. Midterm_Stack_ReversedWord.java
+1. Midterm_Stack_ReversedWord.java x 
 ```
 Create a Java program with the following requirements/output:
 

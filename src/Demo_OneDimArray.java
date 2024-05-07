@@ -1,7 +1,7 @@
 /*
  * Course: Data Structure and Algorithm Analysis
  * Period: Prelim
- * Demo Code # 1
+ * Demo # 1 : One Dimentional Array
 */
 
 import java.*;
