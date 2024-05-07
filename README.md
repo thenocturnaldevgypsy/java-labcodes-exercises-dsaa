@@ -26,16 +26,16 @@ Meanwhile, the compiled output files `*.class` will be generated in the `bin` fo
 ## Contents and Breakdown
 - All Activities under Prelim Period
     - Demo
-    - Exercises
+    - Exercises (with sample output)
 - All Activities under Midterm Period
     - Demo
-    - Exercises
+    - Exercises (with sample output)
 - All Activities under Pre-finals Period
-    - Exercises
+    - Exercises (with sample output)
 - All Activities under Finals Period
-    - Exercises
+    - Exercises (with sample output)
 
-## All Activities under Prelim Period
+### All Activities under Prelim Period
 **Demo**
 1. Demo # 1: One Dimentional Array (Demo_OneDimArray.java)
 2. Demo # 2: One Dimentional Array - Debug (Demo_OneDimArray_Debug)
@@ -50,7 +50,7 @@ Meanwhile, the compiled output files `*.class` will be generated in the `bin` fo
 11. Demo # 11: String - ReversedWord
 12. Demo # 12: Stack - Decimal To Binary
 
-**Exercises**
+**Exercises (with sample output)**
 1. Exercise # 1: Java Refresher
 ```
 Create a Java Program with the following output:
@@ -76,6 +76,41 @@ Kaya mo pa? <oo/yes> or <hinde/no>
 Nice meeting you <name>, sa uulitin!
 ```
 2. Exercise # 2: One Dimentional Array - Minimum, Maximum, Average
+```
+Create a Java Program with the following requirements:
+
+1. Create a One/Single Dimensional Array for storing ten (10) whole numbers
+(integer)
+
+int[] minmaxave = new int[10];
+
+2. Prompt the user to enter ten (10) whole numbers. Those numbers must be stored
+in the array minmaxave.
+
+Ex.
+
+Enter a number: 1
+Enter a number: 2
+Enter a number: 3
+Enter a number: 4
+Enter a number: 5
+Enter a number: 6
+Enter a number: 7
+Enter a number: 8
+Enter a number: 9
+Enter a number: 10
+
+3. After inputting the ten (10) numbers, display the minimum (lowest number),
+maximum (highest number) and the average (add all the elements of your array,
+then divide to the number of elements (ex. 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 +
+10 = 55 / 10 = 5.5 is the average))
+
+Ex.
+
+The minimum is 1
+The maximum is 10
+The average is 5.5
+```
 3. Exercise # 3: Two Dimentional Array - Minimum, Maximum, Average
 4. Exercise # 4: Arrays - Faculty Listing, Type, Rate and Salary
 5. Exercise # 5: Arrays - BubbleSort
@@ -88,7 +123,7 @@ Nice meeting you <name>, sa uulitin!
 12. Exercise # 12: Stack - Leave Bracket Alone
 13. Exercise # 13: Stack - Decimal Conversion
 
-## All Activities under Midterm Period
+### All Activities under Midterm Period
 **Demo**
 1. Demo # 1: Linked List
 
@@ -99,11 +134,11 @@ Nice meeting you <name>, sa uulitin!
 4. Exercise # 4: Linked List - Queue
 5. Exercise # 5: Linked List - Data Manipulation
 
-## All Activities under Pre-finals Period
+### All Activities under Pre-finals Period
 **Exercises**
 1. Exercise # 1: Trees
 
-## All Activities under Finals Period
+### All Activities under Finals Period
 **Exercises**
 1. Exercise # 1: N-sort
 
@@ -121,29 +156,7 @@ Nice meeting you <name>, sa uulitin!
 
 **Individual Exercises Description and Filenames**
 1. Prelim_Individual.java
-```
-Create a Java Program with the following output:
 
-Hi, what's your name: <name>
-Hello <name>, nice to meet you, how old are you? <age>
--  If 20 and above: Eww, too old...
--  Else: So young
-Give me anumber at mag-mamagic ako: <number> e.g. 4
-Magic Box:
-****
-****
-****
-****
-Isa pa, magic tatsulok!
-*
-**
-***
-****
-Kaya mo pa? <oo/yes> or <hinde/no>
--  Yes/Oo: Good
--  No/Hindi: Gutom lang yan.
-Nice meeting you <name>, sa uulitin!
-```
 2. Prelim_OneDimArray_MinMax.java
 ```
 Create a Java Program with the following requirements:
