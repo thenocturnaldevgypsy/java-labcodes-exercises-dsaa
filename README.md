@@ -9,6 +9,10 @@ If you want to ask some questions about it, feel free to start a discussion or a
 ### Updates/Progress
 
 - **07/05 to 08/05, 2024**
+    - 08/05 3:25 AM [GMT+7/Hanoi] : Done with updating all renamed classes, noticed that the following files are either blank or incomplete codes. Will be looking for my other backups and update soon
+        - Prelim_Exercise6_LinearBinarySearch.java
+        - Midterm_Exercise5_LinkedList_DataManipulation.java
+        - Prefinal_Exercise1_Trees.java
     - 07/05 10:42 PM [GMT+7/Hanoi] : Tried pulling the repo to my local unit using VS Code, need to retweak `App.java`, especially if some users wanted to try it out and won't get confused with the menu, reuploaded all required folders and source codes.
     - 07/05 3:15 PM [GMT+7/Hanoi] : Created `java-labcodes-exercises-dsaa` GitHub `public` repository, added MIT License, and uploaded the original Java codes that I've used way back 2012.
 
@@ -20,8 +24,6 @@ The workspace contains two folders by default, where:
 - `lib`: the folder to maintain dependencies
 
 Meanwhile, the compiled output files `*.class` will be generated in the `bin` folder by default.
-
-*If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings.*
 
 ## Contents and Breakdown
 - [All Activities under Prelim Period](#all-activities-under-prelim-periodall-activities-under-prelim-period)
