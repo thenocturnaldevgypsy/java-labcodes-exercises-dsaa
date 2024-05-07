@@ -35,7 +35,7 @@ Meanwhile, the compiled output files `*.class` will be generated in the `bin` fo
 - All Activities under Finals Period
     - Exercises
 
-### All Activities under Prelim Period
+## All Activities under Prelim Period
 **Demo**
 1. Demo # 1: One Dimentional Array (Demo_OneDimArray.java)
 2. Demo # 2: One Dimentional Array - Debug (Demo_OneDimArray_Debug)
@@ -88,7 +88,7 @@ Nice meeting you <name>, sa uulitin!
 12. Exercise # 12: Stack - Leave Bracket Alone
 13. Exercise # 13: Stack - Decimal Conversion
 
-### All Activities under Midterm Period
+## All Activities under Midterm Period
 **Demo**
 1. Demo # 1: Linked List
 
@@ -99,11 +99,11 @@ Nice meeting you <name>, sa uulitin!
 4. Exercise # 4: Linked List - Queue
 5. Exercise # 5: Linked List - Data Manipulation
 
-### All Activities under Pre-finals Period
+## All Activities under Pre-finals Period
 **Exercises**
 1. Exercise # 1: Trees
 
-### All Activities under Finals Period
+## All Activities under Finals Period
 **Exercises**
 1. Exercise # 1: N-sort
 
