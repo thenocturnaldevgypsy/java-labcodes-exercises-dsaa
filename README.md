@@ -24,16 +24,16 @@ Meanwhile, the compiled output files `*.class` will be generated in the `bin` fo
 *If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings.*
 
 ## Contents and Breakdown
-- [All Activities under Prelim Period](all-activities-under-prelim-period)
+- [All Activities under Prelim Period](#all-activities-under-prelim-periodall-activities-under-prelim-period)
     - Demo
-    - Exercises (with sample output)
-- All Activities under Midterm Period
+    - Exercises (conditions and expected output)
+- [All Activities under Midterm Period](#all-activities-under-midterm-period)
     - Demo
-    - Exercises (with sample output)
-- All Activities under Pre-finals Period
-    - Exercises (with sample output)
-- All Activities under Finals Period
-    - Exercises (with sample output)
+    - Exercises (conditions and expected output)
+- [All Activities under Pre-finals Period](#all-activities-under-pre-finals-period)
+    - Exercises (conditions and expected output)
+- [All Activities under Finals Period](#all-activities-under-finals-period)
+    - Exercises (conditions and expected output)
 
 ### All Activities under Prelim Period
 **Demo**
@@ -50,7 +50,7 @@ Meanwhile, the compiled output files `*.class` will be generated in the `bin` fo
 11. Demo # 11: String - ReversedWord
 12. Demo # 12: Stack - Decimal To Binary
 
-**Exercises (with sample output)**
+**Exercises (conditions and expected output))**
 1. Exercise # 1: Java Refresher
 ```
 Create a Java Program with the following output:
@@ -112,88 +112,6 @@ The maximum is 10
 The average is 5.5
 ```
 3. Exercise # 3: Two Dimentional Array - Minimum, Maximum, Average
-4. Exercise # 4: Arrays - Faculty Listing, Type, Rate and Salary
-5. Exercise # 5: Arrays - BubbleSort
-6. Exercise # 6: Arrays - Linear Binary Search
-7. Exercise # 7: Arrays - InsertionSort and SelectionSort
-8. Exercise # 8: Method - Operations
-9. Exercise # 9: Method - Factorial
-10. Exercise # 10: Method - TriangularNumber
-11. Exercise # 11: Stack - Reversed Word
-12. Exercise # 12: Stack - Leave Bracket Alone
-13. Exercise # 13: Stack - Decimal Conversion
-
-### All Activities under Midterm Period
-**Demo**
-1. Demo # 1: Linked List
-
-**Exercises**
-1. Exercise # 1: Linked List - Linear Search
-2. Exercise # 2: Linked List - Reversed Linear Search
-3. Exercise # 3: One Dimensional Array - Queue
-4. Exercise # 4: Linked List - Queue
-5. Exercise # 5: Linked List - Data Manipulation
-
-### All Activities under Pre-finals Period
-**Exercises**
-1. Exercise # 1: Trees
-
-### All Activities under Finals Period
-**Exercises**
-1. Exercise # 1: N-sort
-
-<!-- ### Exercises under Prelim Period
-**Demo Codes before Exercises**
-1. Prelim_Method_Demo.java x
-2. Prelim_Method_ReturnDemo.java x
-3. Prelim_Method_VoidDemo.java x
-4. Prelim_OneDimArray_Demo.java x
-5. Prelim_OneDimArray_Input.java x
-6. Prelim_OneDimArray_Debug.java x
-7. Prelim_TwoDimArray_Demo.java x
-8. Prelim_TwoDimArray_Storing.java x
-9. Prelim_TwoDimArray_String.java x
-
-**Individual Exercises Description and Filenames**
-1. Prelim_Individual.java
-
-2. Prelim_OneDimArray_MinMax.java
-```
-Create a Java Program with the following requirements:
-
-1. Create a One/Single Dimensional Array for storing ten (10) whole numbers
-(integer)
-
-int[] minmaxave = new int[10];
-
-2. Prompt the user to enter ten (10) whole numbers. Those numbers must be stored
-in the array minmaxave.
-
-Ex.
-
-Enter a number: 1
-Enter a number: 2
-Enter a number: 3
-Enter a number: 4
-Enter a number: 5
-Enter a number: 6
-Enter a number: 7
-Enter a number: 8
-Enter a number: 9
-Enter a number: 10
-
-3. After inputting the ten (10) numbers, display the minimum (lowest number),
-maximum (highest number) and the average (add all the elements of your array,
-then divide to the number of elements (ex. 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 +
-10 = 55 / 10 = 5.5 is the average))
-
-Ex.
-
-The minimum is 1
-The maximum is 10
-The average is 5.5
-```
-3. Prelim_TwoDimArray_MinMax.java
 ```
 Create a Java Program with the following requirements:
 
@@ -230,7 +148,8 @@ The minimum is 0, stored at [3][0]
 The maximum is 100, stored at [1][2]
 The average is 7.0
 ```
-4. Prelim_BubbleSort.java
+4. Exercise # 4: Arrays - Faculty Listing, Type, Rate and Salary
+5. Exercise # 5: Arrays - BubbleSort
 ```
 Output:
 
@@ -306,7 +225,9 @@ Reached the end of the list. Swap > 0? FALSE. Process complete.
 
 Display sorted list: 1 2 3 4 5 6 7 8 9 10
 ```
-5. Prelim_Method_Operations.java
+6. Exercise # 6: Arrays - Linear Binary Search
+7. Exercise # 7: Arrays - InsertionSort and SelectionSort
+8. Exercise # 8: Method - Operations
 ```
 Create a Java Program based on the output below:
 
@@ -321,7 +242,7 @@ Enter 2 numbers
 
 Condition: Each operation (addition, subtraction, multiplication and division) must be coded and perfomed in separate methods, meaning you must have one void main and four methods in your program (one java method for addition, one java method for subtraction, one java method for multiplication and one java method for division).
 ```
-6. Prelim_Method_Factorial.java
+9. Exercise # 9: Method - Factorial
 ```
 Create a Java Program based on the output below:
 
@@ -330,8 +251,7 @@ The factorial of 7 is 5040
  
 Condition: The computation of the factorial must be coded and perfomed in a method, meaning you must have one void main and one method in your program (one java method for the factorial).
 ```
-7. Prelim_Method_TriangularNumber.java
-
+10. Exercise # 10: Method - TriangularNumber
 ```
 Create a Java program with the following requirements/output:
 
@@ -348,6 +268,57 @@ The triangular number of 6 is 21.
 
 Condition: The generation of the asterisk and computing the triangular number must be coded and perfomed in methods, meaning you must have one void main and two methods in your program (one java method for generating the asterisk of the triangular number and one method for computing the triangular number).
 ```
+11. Exercise # 11: Stack - Reversed Word
+12. Exercise # 12: Stack - Leave Bracket Alone
+13. Exercise # 13: Stack - Decimal Conversion
+
+### All Activities under Midterm Period
+**Demo**
+1. Demo # 1: Linked List
+
+**Exercises (conditions and expected output))**
+1. Exercise # 1: Linked List - Linear Search
+2. Exercise # 2: Linked List - Reversed Linear Search
+3. Exercise # 3: One Dimensional Array - Queue
+4. Exercise # 4: Linked List - Queue
+5. Exercise # 5: Linked List - Data Manipulation
+
+### All Activities under Pre-finals Period
+**Exercises (conditions and expected output))**
+1. Exercise # 1: Trees
+
+### All Activities under Finals Period
+**Exercises (conditions and expected output))**
+1. Exercise # 1: N-sort
+
+<!-- ### Exercises under Prelim Period
+**Demo Codes before Exercises**
+1. Prelim_Method_Demo.java x
+2. Prelim_Method_ReturnDemo.java x
+3. Prelim_Method_VoidDemo.java x
+4. Prelim_OneDimArray_Demo.java x
+5. Prelim_OneDimArray_Input.java x
+6. Prelim_OneDimArray_Debug.java x
+7. Prelim_TwoDimArray_Demo.java x
+8. Prelim_TwoDimArray_Storing.java x
+9. Prelim_TwoDimArray_String.java x
+
+**Individual Exercises Description and Filenames**
+1. Prelim_Individual.java
+
+2. Prelim_OneDimArray_MinMax.java
+
+3. Prelim_TwoDimArray_MinMax.java
+
+4. Prelim_BubbleSort.java
+
+5. Prelim_Method_Operations.java
+
+6. Prelim_Method_Factorial.java
+
+7. Prelim_Method_TriangularNumber.java
+
+
 
 **Group Exercises Description and Filenames**
 1. Prelim_Array_FacRate.java
