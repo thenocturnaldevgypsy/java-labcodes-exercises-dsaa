@@ -77,25 +77,12 @@ public class Prefinal_Exercise1_Trees {
 		int decision = 0, inTree =0, seeTree = 0;
 
 		do {
-
-			System.out.print("\nWhat do you want to do [1-Insert|2-Search]? ");
+			System.out.println("[1-Insert|2-Search|3-Delete|4-Inorder Traversal|5-Preorder Traversal|6-Postorder Traversal|7-Quit]\n");
+			System.out.print("What do you want to do? ");
 			decision = x.nextInt();
 
 			switch (decision) {
 				case 1:
-
-//					int inTree;
-//					boolean validate =  true;
-//					do {
-//						System.out.print("Insert: ");
-//						inTree = x.nextInt();
-//						for (int b=0;b<tree.length;b++) {
-//							if (tree[b]==inTree) {
-//								System.out.print("Value already existing. ");
-//								validate = true;
-//							}
-//						}
-//					} while (validate != false);
 
 					System.out.print("Insert: ");
 					inTree = x.nextInt();
@@ -124,7 +111,8 @@ public class Prefinal_Exercise1_Trees {
 							}
 						}
 					}
-					break;
+				break;
+
 				case 2:
 					System.out.print("Search for: ");
 					seeTree = x.nextInt();
@@ -150,8 +138,22 @@ public class Prefinal_Exercise1_Trees {
 					if (found == false) { //value not found
 						System.out.println("Value does not exist!");
 					}
-					break;
-					default: // if value more than the option allowed
+				break;
+
+				case 3:
+					System.out.println("Skipping DELETE at the moment, please choose another option.");
+				break;
+
+				case 4:
+				break;
+
+				case 5:
+				break;
+
+				case 6:
+				break;
+
+				default: // if value more than the option allowed
 					System.out.println("\n** PLEASE CHOOSE FROM 1 OR 2! **");
 			}
 
