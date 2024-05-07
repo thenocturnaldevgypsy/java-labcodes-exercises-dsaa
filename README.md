@@ -9,7 +9,7 @@ If you want to ask some questions about it, feel free to start a discussion or a
 ### Updates/Progress
 
 - **07/05 to 08/05, 2024**
-    - 08/05 4:30 AM [GMT+7/Hanoi] : Done with updating all renamed classes, noticed that `Prefinal_Exercise1_Trees.java` has incomplete codes. Will be looking for my backup (or just rewrite it) and I'll upload it in this repo soon.
+    - 08/05 7:00 AM [GMT+7/Hanoi] : Done with updating all renamed classes, noticed that `Prefinal_Exercise1_Trees.java` has incomplete codes. Will be looking for my backup (or just rewrite it) and I'll upload it in this repo soon.
     - 07/05 10:42 PM [GMT+7/Hanoi] : Tried pulling the repo to my local unit using VS Code, need to retweak `App.java`, especially if some users wanted to try it out and won't get confused with the menu, reuploaded all required folders and source codes.
     - 07/05 3:15 PM [GMT+7/Hanoi] : Created `java-labcodes-exercises-dsaa` GitHub `public` repository, added MIT License, and uploaded the original Java codes that I've used way back 2012.
 
@@ -20,7 +20,7 @@ The workspace contains two folders by default, where:
 - `src`: the folder to maintain sources, the one uploaded in this repository
 - `bin`: the default folder to store the generated compiled output files `*.class`
 
-I am currently using VS Code with the JDK below
+I am currently using `VSCode Version: 1.89.0 (Universal)` with the JDK below
 ```
 openjdk version "21.0.3" 2024-04-16 LTS
 OpenJDK Runtime Environment Temurin-21.0.3+9 (build 21.0.3+9-LTS)
