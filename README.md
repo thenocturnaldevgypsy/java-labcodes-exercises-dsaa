@@ -52,6 +52,29 @@ Meanwhile, the compiled output files `*.class` will be generated in the `bin` fo
 
 **Exercises**
 1. Exercise # 1: Java Refresher
+```
+Create a Java Program with the following output:
+
+Hi, what's your name: <name>
+Hello <name>, nice to meet you, how old are you? <age>
+-  If 20 and above: Eww, too old...
+-  Else: So young
+Give me anumber at mag-mamagic ako: <number> e.g. 4
+Magic Box:
+****
+****
+****
+****
+Isa pa, magic tatsulok!
+*
+**
+***
+****
+Kaya mo pa? <oo/yes> or <hinde/no>
+-  Yes/Oo: Good
+-  No/Hindi: Gutom lang yan.
+Nice meeting you <name>, sa uulitin!
+```
 2. Exercise # 2: One Dimentional Array - Minimum, Maximum, Average
 3. Exercise # 3: Two Dimentional Array - Minimum, Maximum, Average
 4. Exercise # 4: Arrays - Faculty Listing, Type, Rate and Salary
