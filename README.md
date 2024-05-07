@@ -50,7 +50,7 @@ Meanwhile, the compiled output files `*.class` will be generated in the `bin` fo
 11. Demo # 11: String - ReversedWord
 12. Demo # 12: Stack - Decimal To Binary
 
-**Exercises (conditions and expected output))**
+**Exercises (conditions and expected output)**
 1. Exercise # 1: Java Refresher
 ```
 Create a Java Program with the following output:
@@ -149,179 +149,6 @@ The maximum is 100, stored at [1][2]
 The average is 7.0
 ```
 4. Exercise # 4: Arrays - Faculty Listing, Type, Rate and Salary
-5. Exercise # 5: Arrays - BubbleSort
-```
-Output:
-
-Enter number 1: 1
-Enter number 2: 10
-Enter number 3: 2
-Enter number 4: 9
-Enter number 5: 3
-Enter number 6: 8
-Enter number 7: 4
-Enter number 8: 7
-Enter number 9: 5
-Enter number 10: 6
-
-Display unsorted list: 1 10 2 9 3 8 4 7 5 6 
-
-Simulation using Bubble Sort. Start.
-
-[0] 1 > [1] 10 ? FALSE. No swap.
-[1] 10 > [2] 2 ? TRUE. Swap 10 and 2.
-[2] 10 > [3] 9 ? TRUE. Swap 10 and 9.
-[3] 10 > [4] 3 ? TRUE. Swap 10 and 3.
-[4] 10 > [5] 8 ? TRUE. Swap 10 and 8.
-[5] 10 > [6] 4 ? TRUE. Swap 10 and 4.
-[6] 10 > [7] 7 ? TRUE. Swap 10 and 7.
-[7] 10 > [8] 5 ? TRUE. Swap 10 and 5.
-[8] 10 > [9] 6 ? TRUE. Swap 10 and 6.
-Reached the end of the list. Swap > 0? TRUE. Repeat process.
-
-[0] 1 > [1] 2 ? FALSE. No swap.
-[1] 2 > [2] 9 ? FALSE. No swap.
-[2] 9 > [3] 3 ? TRUE. Swap 9 and 3.
-[3] 9 > [4] 8 ? TRUE. Swap 9 and 8.
-[4] 9 > [5] 4 ? TRUE. Swap 9 and 4.
-[5] 9 > [6] 7 ? TRUE. Swap 9 and 7.
-[6] 9 > [7] 5 ? TRUE. Swap 9 and 5.
-[7] 9 > [8] 6 ? TRUE. Swap 9 and 6.
-[8] 9 > [9] 10 ? FALSE. No swap.
-Reached the end of the list. Swap > 0? TRUE. Repeat process.
-
-[0] 1 > [1] 2 ? FALSE. No swap.
-[1] 2 > [2] 3 ? FALSE. No swap.
-[2] 3 > [3] 8 ? FALSE. No swap.
-[3] 8 > [4] 4 ? TRUE. Swap 8 and 4.
-[4] 8 > [5] 7 ? TRUE. Swap 8 and 7.
-[5] 8 > [6] 5 ? TRUE. Swap 8 and 5.
-[6] 8 > [7] 6 ? TRUE. Swap 8 and 6.
-[7] 8 > [8] 9 ? FALSE. No swap.
-[8] 9 > [9] 10 ? FALSE. No swap.
-Reached the end of the list. Swap > 0? TRUE. Repeat process.
-
-[0] 1 > [1] 2 ? FALSE. No swap.
-[1] 2 > [2] 3 ? FALSE. No swap.
-[2] 3 > [3] 4 ? FALSE. No swap.
-[3] 4 > [4] 7 ? FALSE. No swap.
-[4] 7 > [5] 5 ? TRUE. Swap 7 and 5.
-[5] 7 > [6] 6 ? TRUE. Swap 7 and 6.
-[6] 7 > [7] 8 ? FALSE. No swap.
-[7] 8 > [8] 9 ? FALSE. No swap.
-[8] 9 > [9] 10 ? FALSE. No swap.
-Reached the end of the list. Swap > 0? TRUE. Repeat process.
-
-[0] 1 > [1] 2 ? FALSE. No swap.
-[1] 2 > [2] 3 ? FALSE. No swap.
-[2] 3 > [3] 4 ? FALSE. No swap.
-[3] 4 > [4] 5 ? FALSE. No swap.
-[4] 5 > [5] 6 ? FALSE. No swap.
-[5] 6 > [6] 7 ? FALSE. No swap.
-[6] 7 > [7] 8 ? FALSE. No swap.
-[7] 8 > [8] 9 ? FALSE. No swap.
-[8] 9 > [9] 10 ? FALSE. No swap.
-Reached the end of the list. Swap > 0? FALSE. Process complete.
-
-Display sorted list: 1 2 3 4 5 6 7 8 9 10
-```
-6. Exercise # 6: Arrays - Linear Binary Search
-7. Exercise # 7: Arrays - InsertionSort and SelectionSort
-8. Exercise # 8: Method - Operations
-```
-Create a Java Program based on the output below:
-
-Enter 2 numbers
-7
-3
-
-7 + 3 = 10
-7 - 3 = 4
-7 x 3 = 21
-7 / 3 = 2.0
-
-Condition: Each operation (addition, subtraction, multiplication and division) must be coded and perfomed in separate methods, meaning you must have one void main and four methods in your program (one java method for addition, one java method for subtraction, one java method for multiplication and one java method for division).
-```
-9. Exercise # 9: Method - Factorial
-```
-Create a Java Program based on the output below:
-
-Enter a number: 7
-The factorial of 7 is 5040
- 
-Condition: The computation of the factorial must be coded and perfomed in a method, meaning you must have one void main and one method in your program (one java method for the factorial).
-```
-10. Exercise # 10: Method - TriangularNumber
-```
-Create a Java program with the following requirements/output:
-
-Enter a number: 6
-
-*
-**
-***
-****
-*****
-******
-
-The triangular number of 6 is 21.
-
-Condition: The generation of the asterisk and computing the triangular number must be coded and perfomed in methods, meaning you must have one void main and two methods in your program (one java method for generating the asterisk of the triangular number and one method for computing the triangular number).
-```
-11. Exercise # 11: Stack - Reversed Word
-12. Exercise # 12: Stack - Leave Bracket Alone
-13. Exercise # 13: Stack - Decimal Conversion
-
-### All Activities under Midterm Period
-**Demo**
-1. Demo # 1: Linked List
-
-**Exercises (conditions and expected output))**
-1. Exercise # 1: Linked List - Linear Search
-2. Exercise # 2: Linked List - Reversed Linear Search
-3. Exercise # 3: One Dimensional Array - Queue
-4. Exercise # 4: Linked List - Queue
-5. Exercise # 5: Linked List - Data Manipulation
-
-### All Activities under Pre-finals Period
-**Exercises (conditions and expected output))**
-1. Exercise # 1: Trees
-
-### All Activities under Finals Period
-**Exercises (conditions and expected output))**
-1. Exercise # 1: N-sort
-
-<!-- ### Exercises under Prelim Period
-**Demo Codes before Exercises**
-1. Prelim_Method_Demo.java x
-2. Prelim_Method_ReturnDemo.java x
-3. Prelim_Method_VoidDemo.java x
-4. Prelim_OneDimArray_Demo.java x
-5. Prelim_OneDimArray_Input.java x
-6. Prelim_OneDimArray_Debug.java x
-7. Prelim_TwoDimArray_Demo.java x
-8. Prelim_TwoDimArray_Storing.java x
-9. Prelim_TwoDimArray_String.java x
-
-**Individual Exercises Description and Filenames**
-1. Prelim_Individual.java
-
-2. Prelim_OneDimArray_MinMax.java
-
-3. Prelim_TwoDimArray_MinMax.java
-
-4. Prelim_BubbleSort.java
-
-5. Prelim_Method_Operations.java
-
-6. Prelim_Method_Factorial.java
-
-7. Prelim_Method_TriangularNumber.java
-
-
-
-**Group Exercises Description and Filenames**
-1. Prelim_Array_FacRate.java
 ```
 Create a Java program with the following requirements:
 
@@ -400,17 +227,91 @@ Rate: 150.00
 Number of Hours: 10
 Salary: 1,500.00
 ```
-2. Prelim_LinearBinarySearch.java
+5. Exercise # 5: Arrays - BubbleSort
+```
+Output:
+
+Enter number 1: 1
+Enter number 2: 10
+Enter number 3: 2
+Enter number 4: 9
+Enter number 5: 3
+Enter number 6: 8
+Enter number 7: 4
+Enter number 8: 7
+Enter number 9: 5
+Enter number 10: 6
+
+Display unsorted list: 1 10 2 9 3 8 4 7 5 6 
+
+Simulation using Bubble Sort. Start.
+
+[0] 1 > [1] 10 ? FALSE. No swap.
+[1] 10 > [2] 2 ? TRUE. Swap 10 and 2.
+[2] 10 > [3] 9 ? TRUE. Swap 10 and 9.
+[3] 10 > [4] 3 ? TRUE. Swap 10 and 3.
+[4] 10 > [5] 8 ? TRUE. Swap 10 and 8.
+[5] 10 > [6] 4 ? TRUE. Swap 10 and 4.
+[6] 10 > [7] 7 ? TRUE. Swap 10 and 7.
+[7] 10 > [8] 5 ? TRUE. Swap 10 and 5.
+[8] 10 > [9] 6 ? TRUE. Swap 10 and 6.
+Reached the end of the list. Swap > 0? TRUE. Repeat process.
+
+[0] 1 > [1] 2 ? FALSE. No swap.
+[1] 2 > [2] 9 ? FALSE. No swap.
+[2] 9 > [3] 3 ? TRUE. Swap 9 and 3.
+[3] 9 > [4] 8 ? TRUE. Swap 9 and 8.
+[4] 9 > [5] 4 ? TRUE. Swap 9 and 4.
+[5] 9 > [6] 7 ? TRUE. Swap 9 and 7.
+[6] 9 > [7] 5 ? TRUE. Swap 9 and 5.
+[7] 9 > [8] 6 ? TRUE. Swap 9 and 6.
+[8] 9 > [9] 10 ? FALSE. No swap.
+Reached the end of the list. Swap > 0? TRUE. Repeat process.
+
+[0] 1 > [1] 2 ? FALSE. No swap.
+[1] 2 > [2] 3 ? FALSE. No swap.
+[2] 3 > [3] 8 ? FALSE. No swap.
+[3] 8 > [4] 4 ? TRUE. Swap 8 and 4.
+[4] 8 > [5] 7 ? TRUE. Swap 8 and 7.
+[5] 8 > [6] 5 ? TRUE. Swap 8 and 5.
+[6] 8 > [7] 6 ? TRUE. Swap 8 and 6.
+[7] 8 > [8] 9 ? FALSE. No swap.
+[8] 9 > [9] 10 ? FALSE. No swap.
+Reached the end of the list. Swap > 0? TRUE. Repeat process.
+
+[0] 1 > [1] 2 ? FALSE. No swap.
+[1] 2 > [2] 3 ? FALSE. No swap.
+[2] 3 > [3] 4 ? FALSE. No swap.
+[3] 4 > [4] 7 ? FALSE. No swap.
+[4] 7 > [5] 5 ? TRUE. Swap 7 and 5.
+[5] 7 > [6] 6 ? TRUE. Swap 7 and 6.
+[6] 7 > [7] 8 ? FALSE. No swap.
+[7] 8 > [8] 9 ? FALSE. No swap.
+[8] 9 > [9] 10 ? FALSE. No swap.
+Reached the end of the list. Swap > 0? TRUE. Repeat process.
+
+[0] 1 > [1] 2 ? FALSE. No swap.
+[1] 2 > [2] 3 ? FALSE. No swap.
+[2] 3 > [3] 4 ? FALSE. No swap.
+[3] 4 > [4] 5 ? FALSE. No swap.
+[4] 5 > [5] 6 ? FALSE. No swap.
+[5] 6 > [6] 7 ? FALSE. No swap.
+[6] 7 > [7] 8 ? FALSE. No swap.
+[7] 8 > [8] 9 ? FALSE. No swap.
+[8] 9 > [9] 10 ? FALSE. No swap.
+Reached the end of the list. Swap > 0? FALSE. Process complete.
+
+Display sorted list: 1 2 3 4 5 6 7 8 9 10
+```
+6. Exercise # 6: Arrays - Linear Binary Search
 ```
 Create a Java program with the following requirements:
 
-1. Name of the File/Class: LinearBinarySearch.java
-
-2. You must ask the user for the size of the array. Note that you must use one/single dimensional array and the size of your array is dynamic.
+1. You must ask the user for the size of the array. Note that you must use one/single dimensional array and the size of your array is dynamic.
 
 Enter the size of the array: 5
 
-3. Ask the user to enter a whole X times. X is based on the size of your array defined by your user. You must also show the array index while asking for a value.
+2. Ask the user to enter a whole X times. X is based on the size of your array defined by your user. You must also show the array index while asking for a value.
 
 Enter value for [0] : 
 1
@@ -419,17 +320,17 @@ Enter value for [2] : 6
 Enter value for [3] : 2
 Enter value for [4] : 8
 
-4. Ask the user for the target value for searching. Note that the user can input any number, even it does not belong to the elements stored in the array.
+3. Ask the user for the target value for searching. Note that the user can input any number, even it does not belong to the elements stored in the array.
 
 Enter the target values to be searched: 6
 
-5. Let the user choose if he/she want to use linear or binary searching. Note that just in case that the user typed in an invalid input, the program must be notify and asked for an input again.
+4. Let the user choose if he/she want to use linear or binary searching. Note that just in case that the user typed in an invalid input, the program must be notify and asked for an input again.
 
 [1] Linear Search | [2] Binary Search
 Choose the searching algorithm to be used [1 or 2]: 4
 Invalid input! Choose the searching algorithm to be used [1 or 2]: 2
 
-6. When the user typed in a valid input. You must show the simulation for each searching algorithm. Your out must look like the following sample outputs below:
+5. When the user typed in a valid input. You must show the simulation for each searching algorithm. Your out must look like the following sample outputs below:
 
 *for Linear Searching*
 
@@ -457,7 +358,7 @@ middle = [3 + 4 = 7 / 2 = 3.5] = 4
 middle = [3 + 3 = 6 / 2 = 3] = 3
 - Is array[3] : 6 <, >, =  6? =, TRUE, stored at [3]
 ```
-3. Prelim_InsertionSortSelectionSort.java
+7. Exercise # 7: Arrays - InsertionSort and SelectionSort
 ```
 Create a Java program with the following requirements/0utput:
 
@@ -612,16 +513,48 @@ Reached the end of the list. Found new minimum. Swap [8]: 9 with [9]: 8.
 
 Display sorted list: 0 1 2 3 4 5 6 7 8 9 
 ```
+8. Exercise # 8: Method - Operations
+```
+Create a Java Program based on the output below:
 
-### Exercises under Midterm Period
-**Demo Codes before Exercises**
-1. Midterm_Stack_Demo.java x
-2. Midterm_String_ReversedWord.java x 
-3. Midterm_Stack_DecToBin.java x
-4. Midterm_LinkedList_Demo.java
+Enter 2 numbers
+7
+3
 
-**Individual Exercises Description and Filenames**
-1. Midterm_Stack_ReversedWord.java x 
+7 + 3 = 10
+7 - 3 = 4
+7 x 3 = 21
+7 / 3 = 2.0
+
+Condition: Each operation (addition, subtraction, multiplication and division) must be coded and perfomed in separate methods, meaning you must have one void main and four methods in your program (one java method for addition, one java method for subtraction, one java method for multiplication and one java method for division).
+```
+9. Exercise # 9: Method - Factorial
+```
+Create a Java Program based on the output below:
+
+Enter a number: 7
+The factorial of 7 is 5040
+ 
+Condition: The computation of the factorial must be coded and perfomed in a method, meaning you must have one void main and one method in your program (one java method for the factorial).
+```
+10. Exercise # 10: Method - TriangularNumber
+```
+Create a Java program with the following requirements/output:
+
+Enter a number: 6
+
+*
+**
+***
+****
+*****
+******
+
+The triangular number of 6 is 21.
+
+Condition: The generation of the asterisk and computing the triangular number must be coded and perfomed in methods, meaning you must have one void main and two methods in your program (one java method for generating the asterisk of the triangular number and one method for computing the triangular number).
+```
+11. Exercise # 11: Stack - Reversed Word
 ```
 Create a Java program with the following requirements/output:
 
@@ -630,7 +563,16 @@ Reversed Word: EMIT
 
 Condition: You must use stack and the .push() and .pop() methods in this program.
 ```
-2. Midterm_Stack_DecimalConversion.java
+12. Exercise # 12: Stack - Leave Bracket Alone
+```
+Create a Java program with the following requirements/output:
+
+Enter a string statement, make sure to include { and } in it: fg{{}][ds{}}ksa123{{{}
+Trimmed statement: {{}{}}{{{}
+
+Condition: You must use stack and the .push() and .pop() methods in this program.
+```
+13. Exercise # 13: Stack - Decimal Conversion
 ```
 Create a Java program with the following requirements/output:
 
@@ -647,16 +589,13 @@ Condition: You must use stack and the .push() and .pop() methods in this program
 
 This means you have one static void main and three customed methods in your program.
 ```
-3. Midterm_Stack_LeaveBracket.java
-```
-Create a Java program with the following requirements/output:
 
-Enter a string statement, make sure to include { and } in it: fg{{}][ds{}}ksa123{{{}
-Trimmed statement: {{}{}}{{{}
+### All Activities under Midterm Period
+**Demo**
+1. Demo # 1: Linked List
 
-Condition: You must use stack and the .push() and .pop() methods in this program.
-```
-4. Midterm_LinkedList_LinearSearch.java
+**Exercises (conditions and expected output)**
+1. Exercise # 1: Linked List - Linear Search
 ```
 Create a Java program with the following requirements/output:
 
@@ -673,7 +612,7 @@ Type in the name that you want to search: Karen
 > Is [0]: Anna == Karen? FALSE
 > Is [1]: Karen == Karen? TRUE, stored at [1]
 ```
-5. Midterm_LinkedList_ReversedLinearSearch.java
+2. Exercise # 2: Linked List - Reversed Linear Search
 ```
 Create a Java program with the following requirements/output:
 
@@ -691,46 +630,7 @@ Type in the name that you want to search: Anna
 > Is [1]: Karen == Anna? FALSE
 > Is [0]: Anna == Anna? TRUE, stored at [1]
 ```
-**Group Exercises Description and Filenames**
-1. Midterm_LinkedList_DataManipulation.java
-```
-Create a Java program with the following requirements/output:
-
-Enter name to be added in our Linked List: Anna
-Add new record to our linked list [1-Yes|0-No] ? 1
-Enter name to be added in our Linked List: Karen
-Add new record to our linked list [1-Yes|0-No] ? 1
-Enter name to be added in our Linked List: Nina
-Add new record to our linked list [1-Yes|0-No] ? 1
-Enter name to be added in our Linked List: Paulo
-Add new record to our linked list [1-Yes|0-No] ? 1
-Enter name to be added in our Linked List: Renz
-Add new record to our linked list [1-Yes|0-No] ? 0
-
-Let's show the records stored in our linked list [Anna, Karen, Nina, Paulo, Renz]
-
-Type in the name that you want to search: Karen
-> Is [0]: Anna == Karen? FALSE
-> Is [1]: Karen == Karen? TRUE, stored at [1]
-
-What do you want to do [1-Update|2-Delete] ? 2
-
-Updated records stored in our linked list [Anna, Nina, Paulo, Renz]
-
-Type in the name that you want to search: Anna
-> Is [0]: Anna == Anna? TRUE, stored at [0]
-
-What do you want to do [1-Update|2-Delete] ? 1
-New name to be stored: Kuracha
-
-Updated records stored in our linked list [Kuracha, Nina, Paulo, Renz]
-
-Condition: The program will only stop asking for the value to be searched and perform update/delete in the linked list if there is no more existing nodes (if all of the nodes are deleted).
-```
-
-### Exercises under Prefinal Period
-**Individual Exercises Description and Filenames**
-1. Prefinal_OneDimArray_Queue.java
+3. Exercise # 3: One Dimensional Array - Queue
 ```
 Create a Java program (REQUIREMENT: Use a one dimensional array for storing the information) with the following requirements/output:
 
@@ -810,7 +710,7 @@ What do you want to do [1-Enqueue|2-Dequeue|3-Peek|4-Quit]? 4
 
 Process completed.
 ```
-2. Prefinal_LinkedList_Queue.java
+4. Exercise # 4: Linked List - Queue
 ```
 Create a Java program (REQUIREMENT: Use a linked list for storing the information) with the following requirements/output:
 
@@ -865,9 +765,45 @@ Current content of the Queue []
 
 Process completed.
 ```
+5. Exercise # 5: Linked List - Data Manipulation
+```
+Create a Java program with the following requirements/output:
 
-**Group Exercises Description and Filenames**
-1. Prefinal_Trees.java
+Enter name to be added in our Linked List: Anna
+Add new record to our linked list [1-Yes|0-No] ? 1
+Enter name to be added in our Linked List: Karen
+Add new record to our linked list [1-Yes|0-No] ? 1
+Enter name to be added in our Linked List: Nina
+Add new record to our linked list [1-Yes|0-No] ? 1
+Enter name to be added in our Linked List: Paulo
+Add new record to our linked list [1-Yes|0-No] ? 1
+Enter name to be added in our Linked List: Renz
+Add new record to our linked list [1-Yes|0-No] ? 0
+
+Let's show the records stored in our linked list [Anna, Karen, Nina, Paulo, Renz]
+
+Type in the name that you want to search: Karen
+> Is [0]: Anna == Karen? FALSE
+> Is [1]: Karen == Karen? TRUE, stored at [1]
+
+What do you want to do [1-Update|2-Delete] ? 2
+
+Updated records stored in our linked list [Anna, Nina, Paulo, Renz]
+
+Type in the name that you want to search: Anna
+> Is [0]: Anna == Anna? TRUE, stored at [0]
+
+What do you want to do [1-Update|2-Delete] ? 1
+New name to be stored: Kuracha
+
+Updated records stored in our linked list [Kuracha, Nina, Paulo, Renz]
+
+Condition: The program will only stop asking for the value to be searched and perform update/delete in the linked list if there is no more existing nodes (if all of the nodes are deleted).
+```
+
+### All Activities under Pre-finals Period
+**Exercises (conditions and expected output)**
+1. Exercise # 1: Trees
 ```
 Create a Java program with the following requirements: 
 
@@ -930,9 +866,9 @@ Current nodes of the tree:
 Process Complete.
 ```
 
-### Exercises under Final Period
-**Individual Exercises Description and Filenames**
-1. Finals_Shellsort.java
+### All Activities under Finals Period
+**Exercises (conditions and expected output)**
+1. Exercise # 1: N-sort
 ```
 Create a Java program with the following requirements: 
 
@@ -974,6 +910,82 @@ Sorted content of the 4-sorted:
 4  3  2  1  
 8  7  6  5
 ```
+2. Exercise # 2: App.java (Final)
+
+<!-- ### Exercises under Prelim Period
+**Demo Codes before Exercises**
+1. Prelim_Method_Demo.java x
+2. Prelim_Method_ReturnDemo.java x
+3. Prelim_Method_VoidDemo.java x
+4. Prelim_OneDimArray_Demo.java x
+5. Prelim_OneDimArray_Input.java x
+6. Prelim_OneDimArray_Debug.java x
+7. Prelim_TwoDimArray_Demo.java x
+8. Prelim_TwoDimArray_Storing.java x
+9. Prelim_TwoDimArray_String.java x
+
+**Individual Exercises Description and Filenames**
+1. Prelim_Individual.java
+
+2. Prelim_OneDimArray_MinMax.java
+
+3. Prelim_TwoDimArray_MinMax.java
+
+4. Prelim_BubbleSort.java
+
+5. Prelim_Method_Operations.java
+
+6. Prelim_Method_Factorial.java
+
+7. Prelim_Method_TriangularNumber.java
+
+
+
+**Group Exercises Description and Filenames**
+1. Prelim_Array_FacRate.java
+
+2. Prelim_LinearBinarySearch.java
+
+3. Prelim_InsertionSortSelectionSort.java
+
+
+### Exercises under Midterm Period
+**Demo Codes before Exercises**
+1. Midterm_Stack_Demo.java x
+2. Midterm_String_ReversedWord.java x 
+3. Midterm_Stack_DecToBin.java x
+4. Midterm_LinkedList_Demo.java
+
+**Individual Exercises Description and Filenames**
+1. Midterm_Stack_ReversedWord.java x 
+
+2. Midterm_Stack_DecimalConversion.java
+
+3. Midterm_Stack_LeaveBracket.java
+
+4. Midterm_LinkedList_LinearSearch.java
+
+5. Midterm_LinkedList_ReversedLinearSearch.java
+
+**Group Exercises Description and Filenames**
+1. Midterm_LinkedList_DataManipulation.java
+
+
+### Exercises under Prefinal Period
+**Individual Exercises Description and Filenames**
+1. Prefinal_OneDimArray_Queue.java
+
+2. Prefinal_LinkedList_Queue.java
+
+
+**Group Exercises Description and Filenames**
+1. Prefinal_Trees.java
+
+
+### Exercises under Final Period
+**Individual Exercises Description and Filenames**
+1. Finals_Shellsort.java
+
 
 **Group Exercises Description and Filenames**
 1. App.java
@@ -989,7 +1001,6 @@ Here's the full list of the program listing (in order) way back Prelim to Finals
 
 PRELIM:
 
-Individual
 - LastnameFM_Section_Individual
 - MinMaxAve
 - MinMaxAveTwoDim
@@ -997,36 +1008,27 @@ Individual
 - MethodOperations
 - MethodFactorial
 - TriangularNumbers
-
-Group
 - FacultyRate
 - LinearBinarySearch
 - InsertionSortSelectionSort
 
 MIDTERM:
 
-Individual
 - Stack_ReversedWord2
 - Stack_DecimalConversions
 - Stack_TrimBrackets
 - LinkedList_LinearSearch
 - LinkedList_ReversedLinearSearch
-
-Group
 - LinkedList_DataManipulation
 
 PRE-FINAL:
 
-Individual
 - Queue_OneDimArray
 - Queue_SinglyLinkedList
-
-Group
 - Prefinals_Trees
 
 FINALS:
 
-Group
 - Finals_ShellSort
 
 
@@ -1034,11 +1036,16 @@ OUTPUT:
 
 <Group Name> - Compilation of Works in Data Structures.
 
+C - Juan dela Cruz
+G - Nicanor Gustavo
+
+Enter a choice [press 0 to go back to the main menu]: g
+
 1 - Access all Prelim Activities
 2 - Access all Midterm Activities
 3 - Access all Pre-final Activities
 4 - Access all Finals Activities
-5 - Individual Summary Report for Data Structures
+5 - Individual Summary Report for Data Structures and Alogorithm Analysis
 
 Enter a choice [press 0 to exit program]: 1
 
@@ -1048,10 +1055,7 @@ G - Activities Groups
 
 Enter a choice [press 0 to go back to the main menu]: I
 
-C - Juan dela Cruz
-G - Nicanor Gustavo
 
-Enter a choice [press 0 to go back to the main menu]: g
 
 Nicanor Gustavo's individual work for Prelim
 
