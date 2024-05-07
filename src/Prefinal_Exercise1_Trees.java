@@ -78,7 +78,7 @@ public class Prefinal_Exercise1_Trees {
 
 		do {
 
-			System.out.print("\nWhat do you want to do [1 - 7]? ");
+			System.out.print("\nWhat do you want to do [1-Insert|2-Search]? ");
 			decision = x.nextInt();
 
 			switch (decision) {
@@ -151,6 +151,8 @@ public class Prefinal_Exercise1_Trees {
 						System.out.println("Value does not exist!");
 					}
 					break;
+					default: // if value more than the option allowed
+					System.out.println("\n** PLEASE CHOOSE FROM 1 OR 2! **");
 			}
 
 			System.out.println("\nUpdated content of the Tree:\n");
