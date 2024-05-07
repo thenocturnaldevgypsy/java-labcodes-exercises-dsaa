@@ -9,7 +9,7 @@ If you want to ask some questions about it, feel free to start a discussion or a
 ### Updates/Progress
 
 - **07/05 to 08/05, 2024**
-    - 08/05 3:25 AM [GMT+7/Hanoi] : Done with updating all renamed classes, noticed that `Prefinal_Exercise1_Trees.java` has incomplete codes. Will be looking for my backup (or just rewrite it) and I'll upload it this repo soon.
+    - 08/05 4:30 AM [GMT+7/Hanoi] : Done with updating all renamed classes, noticed that `Prefinal_Exercise1_Trees.java` has incomplete codes. Will be looking for my backup (or just rewrite it) and I'll upload it this repo soon.
     - 07/05 10:42 PM [GMT+7/Hanoi] : Tried pulling the repo to my local unit using VS Code, need to retweak `App.java`, especially if some users wanted to try it out and won't get confused with the menu, reuploaded all required folders and source codes.
     - 07/05 3:15 PM [GMT+7/Hanoi] : Created `java-labcodes-exercises-dsaa` GitHub `public` repository, added MIT License, and uploaded the original Java codes that I've used way back 2012.
 
