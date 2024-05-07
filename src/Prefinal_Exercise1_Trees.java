@@ -83,7 +83,6 @@ public class Prefinal_Exercise1_Trees {
 
 			switch (decision) {
 				case 1:
-
 					System.out.print("Insert: ");
 					inTree = x.nextInt();
 					if (tree[0] == 0) { // check if root node is not yet taken
@@ -141,27 +140,36 @@ public class Prefinal_Exercise1_Trees {
 				break;
 
 				case 3:
-					System.out.println("Skipping DELETE at the moment, please choose another option.");
+					System.out.println("\nSkipping DELETE at the moment, please choose another option.");
 				break;
 
 				case 4:
+
 				break;
 
 				case 5:
+
 				break;
 
 				case 6:
+
 				break;
 
 				default: // if value more than the option allowed
 					System.out.println("\n** PLEASE CHOOSE FROM 1 OR 2! **");
 			}
 
+/* 			System.out.println("\nUpdated content of the Tree:\n");
+			System.out.println("                	      "+tree[0]);
+			System.out.println("    	      "+tree[1]+"            	            "+tree[2]);
+			System.out.println("  	  "+tree[3]+"     	       "+tree[4]+"    	        "+tree[5]+"    	        "+tree[6]);
+			System.out.println(tree[7]+"   	   "+tree[8]+"	      "+tree[9]+"  	    "+tree[10]+"   	   "+tree[11]+"  	    "+tree[12]+"  	    "+tree[13]+" 	     "+tree[14]+"\n"); */
+
 			System.out.println("\nUpdated content of the Tree:\n");
-			System.out.println("                     "+tree[0]);
-			System.out.println("         "+tree[1]+"                       "+tree[2]);
-			System.out.println("   "+tree[3]+"           "+tree[4]+"           "+tree[5]+"           "+tree[6]);
-			System.out.println(tree[7]+"     "+tree[8]+"     "+tree[9]+"     "+tree[10]+"     "+tree[11]+"     "+tree[12]+"     "+tree[13]+"     "+tree[14]);
+			System.out.println("\nLevel 1 : [ "+tree[0]+" ]");
+			System.out.println("\nLevel 2 : [ "+tree[1]+" ]  |||  [ "+tree[2]+" ]");
+			System.out.println("\nLevel 3 : [ "+tree[3]+" ]  ||  [ "+tree[4]+" ]  |||  [ "+tree[5]+" ]  ||  [ "+tree[6]+" ]");
+			System.out.println("\nLevel 4 : [ "+tree[7]+" ]  |  [ "+tree[8]+" ]  ||  [ "+tree[9]+" ]  |  [ "+tree[10]+" ]  |||  [ "+tree[11]+" ]  |  [ "+tree[12]+" ]  ||  [ "+tree[13]+" ]  |  [ "+tree[14]+" ]\n");
 
 		} while (decision != 7);
 	}
